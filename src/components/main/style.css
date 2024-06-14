@@ -1,0 +1,162 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    gap: 2rem;
+}
+
+        .main-container-1{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+
+                .main-enlaces-izquierda{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                        
+
+                        .main-enlaces-fotos{
+                            background-image: url('../../images/main/fotos.png');
+                        }
+
+                        
+                        .main-enlaces-pediatra{
+                            background-image: url('../../images/main/pediatra.png');
+                        }
+
+
+                        .main-enlaces-noticias{
+                            background-image: url('../../images/main/noticias.png');
+                        }
+
+                .main-imagenes-centro{
+                        background-image: url('../../images/main/main-imagen1.jpg');
+                        width: 40vw;
+                        height: 35vw;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 100% 100%;
+                }
+
+                .main-enlaces-derecha{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+
+
+                        .main-enlaces-decalogo{
+                            background-image: url('../../images/main/decalogo.png');
+                        }
+
+
+                        .main-enlaces-nutricionista{
+                            background-image: url('../../images/main/nutricionista.png');
+                        }
+
+
+                        .main-enlaces-excursiones{
+                            background-image: url('../../images/main/excursiones.png');
+                        }
+
+
+                .main-logo{
+                    width: 10vw;
+                    height: 10vw;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 100%;
+                }
+
+
+        .main-container-2{
+                background-color: #ddedf7;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 3rem;
+                padding: 1rem;
+                width: 90%;
+                max-width: 100%;
+                box-sizing: border-box;
+                overflow: hidden;
+        }
+
+
+                .main-contacto-container{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                        .main-contacto-texto{
+                            color: #102c8a;
+                            font-weight: bold;
+                        }
+
+
+                .main-contacto-container-redes-sociales{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1rem;
+                }
+
+
+                        .main-contacto-x{
+                            background-image: url('../../images/main/x.png');
+                        }
+
+
+                        .main-contacto-facebook{
+                            background-image: url('../../images/main/facebook.jpg');
+
+                        }
+
+
+                        .redSocial{
+                            width: 50px;
+                            height: 50px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: 100% 100%;
+                            border-radius: 5px;
+                        }
+
+        
+        .main-container-3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('../../images/main/main-fondo-cuaderno.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            overflow: hidden;
+            padding: 1rem;
+            word-wrap: break-word;
+            padding-left: 10rem;
+            padding-right: 10rem;
+        }
+
+
+                .main-container-3-parrafo{
+                    font-size: 1.5vw;
+                }
+
+
+        .main-container-linea-divisora{
+            border: 2px solid #a1bccd;
+            height: 40vw;
+            margin: 2rem;
+        }

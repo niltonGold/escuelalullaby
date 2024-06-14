@@ -1,0 +1,117 @@
+
+header{
+}
+
+    .header-enlaces-container{
+        display: flex;
+        justify-content: end;
+        justify-content: space-between;
+        padding: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        align-self: center;
+        align-items: center;
+    }
+
+            .lullaby_logo {
+                background-image: url('../../images/header/lullaby_logo.png');
+                width: 150px;
+                height: 150px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100% 100%;
+                /* background-color: antiquewhite; */
+
+            }
+
+
+            .header-enlaces{
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                flex-wrap: wrap;
+            }
+                    .header-escuelaDePadres{
+                        background-image : url('../../images/header/escueladepadres.png');
+
+                    }
+
+                    .header-zonaPrivada{
+                        background-image : url('../../images/header/zonaprivada.png');
+                    }
+
+                    .header-contacto{
+                        background-image : url('../../images/header/contacto.png');
+                    }
+
+                        .logoRedondoHeader{
+                            width: 15vw;
+                            height: 15vw;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: 100% 100%;
+                        }
+
+    .header-paginas-navegacion{
+        background-color: #ddedf7;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: center;
+        padding: 1rem;
+        overflow: visible;
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+            .header-navegacion-link-container{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                align-self: center;
+            }
+
+                    .header-navegacion-incio-logo{
+                        background-image: url('../../images/header/inicio_logo.png');
+                    }
+
+
+                    .header-navegacion-quienesSomos-logo{
+                        background-image: url('../../images/header/quienesSomos.png');
+                    }
+
+
+                    .header-navegacion-instalaciones-logo{
+                        background-image: url('../../images/header/instalaciones.png');
+                    }
+
+
+                    .header-navegacion-proyectoLullaby-logo{
+                        background-image: url('../../images/header/proyectoLullaby.png');
+                    }
+
+
+                    .header-navegacion-ingles-logo{
+                        background-image: url('../../images/header/ingles.png');
+                    }
+
+
+                    .header-navegacion-equipo-logo{
+                        background-image: url('../../images/header/equipo.png');
+                    }
+
+
+                            .logoNavegacion{
+                                width: 50px;
+                                height: 40px;
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: 100% 100%;
+                            }
+
+
+                            .header-navegacion-texto{
+                                text-align: center;
+                            }
+
+            
