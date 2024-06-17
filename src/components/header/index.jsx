@@ -43,12 +43,7 @@ export const Header = () => {
             <div className='header-navegacion-link-container'>
                 <div className='header-navegacion-equipo-logo logoNavegacion' />
                 <div className='header-navegacion-texto'>Equipo</div>  
-            </div>
-
-            
-           
-            
-            
+            </div> 
             
         </div>
       </header>

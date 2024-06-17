@@ -6,7 +6,7 @@ header{
         display: flex;
         justify-content: end;
         justify-content: space-between;
-        padding: 1rem;
+        /* padding: 1rem; */
         padding-left: 1rem;
         padding-right: 1rem;
         align-self: center;
@@ -15,8 +15,8 @@ header{
 
             .lullaby_logo {
                 background-image: url('../../images/header/lullaby_logo.png');
-                width: 150px;
-                height: 150px;
+                width: 20vw;
+                height: 20vw;
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: 100% 100%;
@@ -28,12 +28,12 @@ header{
             .header-enlaces{
                 display: flex;
                 flex-direction: row;
-                gap: 2rem;
+                gap: 1rem;
                 flex-wrap: wrap;
+                /* background-color: antiquewhite; */
             }
                     .header-escuelaDePadres{
                         background-image : url('../../images/header/escueladepadres.png');
-
                     }
 
                     .header-zonaPrivada{
@@ -56,7 +56,7 @@ header{
         background-color: #ddedf7;
         display: flex;
         flex-direction: row;
-        gap: 2rem;
+        gap: 1rem;
         justify-content: center;
         padding: 1rem;
         overflow: visible;
@@ -102,8 +102,8 @@ header{
 
 
                             .logoNavegacion{
-                                width: 50px;
-                                height: 40px;
+                                width: 5vw;
+                                height: 5vw;
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: 100% 100%;
@@ -112,6 +112,7 @@ header{
 
                             .header-navegacion-texto{
                                 text-align: center;
+                                font-size: 3vw;
                             }
 
             

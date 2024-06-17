@@ -23,15 +23,15 @@ export const Main = () => {
 
             <div className='main-container-2'>
                     <div className='main-contacto-container'>
-                        <b>Dirección :</b>
+                        <b className='main-contacto-texto-subtitulo'>Dirección :</b>
                         <div className='main-contacto-texto'>C/ Salónica, 43, 28232 Las Rozas de Madrid</div>
                     </div>
                     <div className='main-contacto-container'>
-                        <b>Teléfono :</b>
+                        <b className='main-contacto-texto-subtitulo'>Teléfono :</b>
                         <div className='main-contacto-texto'>681 285 932</div>
                     </div>
                     <div className='main-contacto-container'>
-                        <b>Mail :</b>
+                        <b className='main-contacto-texto-subtitulo'>Mail :</b>
                         <div className='main-contacto-texto'>info@escuelalullaby.es</div>
                     </div>
                     
@@ -42,7 +42,8 @@ export const Main = () => {
             </div>
 
             <div className='main-container-3'>
-                {/* <div className='main-container-3-fondo-cuaderno'> */}
+                
+                <div className='main-container-3-fondo-cuaderno-texto'>
                     <div className='main-container-3-parrafo'>
                         <h1>Ven a Conocernos</h1>
                         <div>
@@ -85,7 +86,8 @@ export const Main = () => {
                             <i>¿Te apuntas?</i> <b>Ven con nosotros.</b>
                         </div>
                     </div>
-                {/* </div> */}
+                </div>
+            
             </div>
 
         </main>    
