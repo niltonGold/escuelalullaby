@@ -123,8 +123,8 @@ header{
 
 
                             .logoNavegacion{
-                                width: 5vw;
-                                height: 5vw;
+                                width: 20px;
+                                height: 20px;
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: 100% 100%;
@@ -133,7 +133,7 @@ header{
 
                             .header-navegacion-texto{
                                 text-align: center;
-                                font-size: 4.5px;
+                                font-size: 6px;
                                 font-weight: bold;
                             }
 
