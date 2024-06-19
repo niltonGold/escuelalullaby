@@ -1,22 +1,26 @@
 
 header{
+    /* background-color: beige; */
+    width: 100%;
 }
 
     .header-enlaces-container{
         display: flex;
-        justify-content: end;
         justify-content: space-between;
-        /* padding: 1rem; */
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
         align-self: center;
         align-items: center;
+        /* background-color: aqua; */
+
+        position: relative;
+        z-index: 2;
     }
 
             .lullaby_logo {
                 background-image: url('../../images/header/lullaby_logo.png');
-                width: 20vw;
-                height: 20vw;
+                width: 100px;
+                height: 100px;
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: 100% 100%;
@@ -28,9 +32,11 @@ header{
             .header-enlaces{
                 display: flex;
                 flex-direction: row;
-                gap: 1rem;
-                flex-wrap: wrap;
-                /* background-color: antiquewhite; */
+                gap: 0.5rem;
+                /* flex-wrap: wrap; */
+                /* background-color: rgb(196, 135, 54); */
+                /* height: 100%; */
+                margin-bottom: 4rem;
             }
                     .header-escuelaDePadres{
                         background-image : url('../../images/header/escueladepadres.png');
@@ -45,8 +51,8 @@ header{
                     }
 
                         .logoRedondoHeader{
-                            width: 15vw;
-                            height: 15vw;
+                            width: 40px;
+                            height: 40px;
                             background-repeat: no-repeat;
                             background-position: center;
                             background-size: 100% 100%;
@@ -57,11 +63,25 @@ header{
         display: flex;
         flex-direction: row;
         gap: 1rem;
-        justify-content: center;
-        padding: 1rem;
-        overflow: visible;
-        position: relative;
+        justify-content: right;
+        /* padding: 1rem; */
+        /* overflow: visible; */
+        /* position: relative; */
         flex-wrap: wrap;
+        /* height: 1rem; */
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+
+
+
+
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        width: 100%;
+
+        z-index: 1;
+
     }
 
             .header-navegacion-link-container{
@@ -112,7 +132,8 @@ header{
 
                             .header-navegacion-texto{
                                 text-align: center;
-                                font-size: 3vw;
+                                font-size: 4.5px;
+                                font-weight: bold;
                             }
 
             

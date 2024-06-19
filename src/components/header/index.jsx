@@ -15,6 +15,7 @@ export const Header = () => {
         
         <div className='header-paginas-navegacion'>
 
+                
             <div className='header-navegacion-link-container'>
                 <div className='header-navegacion-incio-logo logoNavegacion' />
                 <div className='header-navegacion-texto'>Inicio</div>
@@ -22,7 +23,7 @@ export const Header = () => {
           
             <div className='header-navegacion-link-container'>
                 <div className='header-navegacion-quienesSomos-logo logoNavegacion' />
-                <div className='header-navegacion-texto'>Quiénes somos</div>
+                <div className='header-navegacion-texto'>Quiénes Somos</div>
             </div>
           
             <div className='header-navegacion-link-container'>
@@ -32,7 +33,7 @@ export const Header = () => {
 
             <div className='header-navegacion-link-container'>
                 <div className='header-navegacion-proyectoLullaby-logo logoNavegacion' />
-                <div className='header-navegacion-texto'>Proyecto Lullaby</div>
+                <div className='header-navegacion-texto'>Proyectos</div>
             </div>
 
             <div className='header-navegacion-link-container'>
@@ -42,7 +43,7 @@ export const Header = () => {
 
             <div className='header-navegacion-link-container'>
                 <div className='header-navegacion-equipo-logo logoNavegacion' />
-                <div className='header-navegacion-texto'>Equipo</div>  
+                <div className='header-navegacion-texto'>Equipo</div>
             </div> 
             
         </div>

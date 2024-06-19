@@ -36,6 +36,7 @@ export const Main = () => {
                     </div>
                     
                     <div className='main-contacto-container-redes-sociales'>
+                        <div> Instagram</div>
                         <div className='main-contacto-x redSocial'/>
                         <div className='main-contacto-facebook redSocial'/>
                     </div>
