@@ -22,23 +22,28 @@ export const Main = () => {
             </div>
 
             <div className='main-container-2'>
-                    <div className='main-contacto-container'>
-                        <b className='main-contacto-texto-subtitulo'>Dirección :</b>
-                        <div className='main-contacto-texto'>C/ Salónica, 43, 28232 Las Rozas de Madrid</div>
-                    </div>
-                    <div className='main-contacto-container'>
-                        <b className='main-contacto-texto-subtitulo'>Teléfono :</b>
-                        <div className='main-contacto-texto'>681 285 932</div>
-                    </div>
-                    <div className='main-contacto-container'>
-                        <b className='main-contacto-texto-subtitulo'>Mail :</b>
-                        <div className='main-contacto-texto'>info@escuelalullaby.es</div>
+                    <div className='main-container-2-sub'>
+                            <div className='main-contacto-container'>
+                                <b className='main-contacto-texto'>Dirección :</b>
+                                <div className='main-contacto-texto'>C/ Salónica, 43, 28232 Las Rozas de Madrid</div>
+                            </div>
+                            <div className='main-contacto-container'>
+                                <b className='main-contacto-texto'>Teléfono :</b>
+                                <div className='main-contacto-texto-telefono'>681 285 932</div>
+                            </div>
                     </div>
                     
-                    <div className='main-contacto-container-redes-sociales'>
-                        <div> Instagram</div>
-                        <div className='main-contacto-x redSocial'/>
-                        <div className='main-contacto-facebook redSocial'/>
+                    <div className='main-container-2-sub'>
+                            <div className='main-contacto-container'>
+                                <b className='main-contacto-texto'>Mail :</b>
+                                <div className='main-contacto-texto'>info@escuelalullaby.es</div>
+                            </div>
+                            
+                            <div className='main-contacto-container-redes-sociales'>
+                                <div className='main-contacto-instagram redSocial'/>
+                                <div className='main-contacto-x redSocial'/>
+                                <div className='main-contacto-facebook redSocial'/>
+                            </div>
                     </div>
             </div>
 
