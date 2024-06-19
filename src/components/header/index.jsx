@@ -41,7 +41,7 @@ export const Header = () => {
                 <div className='header-navegacion-texto'>Inglés</div>
             </div>
 
-            <div className='header-navegacion-link-container'>
+            <div className='header-navegacion-link-container header-navegacion-link-container-final '>
                 <div className='header-navegacion-equipo-logo logoNavegacion' />
                 <div className='header-navegacion-texto'>Equipo</div>
             </div> 
