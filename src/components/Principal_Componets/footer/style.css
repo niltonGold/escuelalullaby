@@ -16,11 +16,11 @@ footer {
 
 
         .footer_facebook{
-            background-image: url('../../images/footer/facebook.jpg');
+            background-image: url('../../../images/footer/facebook.jpg');
         }
 
         .footer_x{
-            background-image: url('../../images/footer/x.png');
+            background-image: url('../../../images/footer/x.png');
         }
 
         .footer_logoredSocial{
@@ -36,7 +36,7 @@ footer {
         }
 
         .footer_comunidadMadridLogo{
-            background-image: url('../../images/footer/comunidad_de_madrid.png');
+            background-image: url('../../../images/footer/comunidad_de_madrid.png');
             width: 40vw;
             height: 20vw;
             background-repeat: no-repeat;
@@ -45,7 +45,7 @@ footer {
         }
 
         .footer_logoEscudo{
-            background-image: url('../../images/footer/logo_lullaby_escudo.png');
+            background-image: url('../../../images/footer/logo_lullaby_escudo.png');
             width: 20vw;
             height: 20vw;
             background-repeat: no-repeat;

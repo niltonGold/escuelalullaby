@@ -1,0 +1,77 @@
+
+
+.main-container-1_fotos_enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+
+        /* Contenedor izquierdo de los circulos fotos, pediatra y noticias */
+        .main-enlaces-izquierda {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+
+                .main-enlaces-fotos {
+                    background-image: url('../../../images/main/fotos.png');
+                }
+
+
+                .main-enlaces-pediatra {
+                    background-image: url('../../../images/main/pediatra.png');
+                }
+
+
+                .main-enlaces-noticias {
+                    background-image: url('../../../images/main/noticias.png');
+                }
+
+
+        /* Contenedor de las fotos cambiantes*/
+           .main-imagenes-centro {
+               width: 200px;
+               height: 160px;
+               background-repeat: no-repeat;
+               background-position: center;
+               background-size: 100% 100%;
+               transition: opacity 2s ease-in-out;
+               /* Duración de la transición */
+           }
+    
+
+
+        /* Contenedor derecho de los circulos decálogo, nutricionista y excursiones*/
+        .main-enlaces-derecha {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+
+                .main-enlaces-decalogo {
+                    background-image: url('../../../images/main/decalogo.png');
+                }
+
+
+                .main-enlaces-nutricionista {
+                    background-image: url('../../../images/main/nutricionista.png');
+                }
+
+
+                .main-enlaces-excursiones {
+                    background-image: url('../../../images/main/excursiones.png');
+                }
+
+
+/* Tamaño de los logos, fotos, pediatra, noticias, decálogo, nutricionista, excursiones */
+.main-logo {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,42 @@
+        .header-paginas-navegacion-subcontainer {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
+            position: relative;
+            top: -10px;
+            padding-right: 0.5rem;
+        }
+
+
+        .header-navegacion-link-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            align-items: center;
+        }
+
+
+
+        .header-logo-hide {
+            visibility: hidden;
+        }
+
+        .header-navegacion-incio-logo {
+            width: 14px;
+            height: 13px;
+            background-image: url('../../../images/header/inicio_logo.png');
+            background-size: cover;
+        }
+
+
+        .header-navegacion-texto {
+            text-align: center;
+            font-size: 7.5px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Nunito', sans-serif;
+            color: #52646f;
+        }

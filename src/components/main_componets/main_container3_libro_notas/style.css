@@ -1,0 +1,46 @@
+   .main-container-3 {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-image: url('../../../images/main/main-fondo-cuaderno.png');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: contain;
+   }
+
+
+   .main-container-3-fondo-cuaderno-texto {
+       display: flex;
+       flex-direction: row;
+       width: 85%;
+   }
+
+
+            .main-container-3-parrafo-container {
+                padding-top: 2rem;
+            }
+
+
+                    .main-container-3-parrafo-titulo{
+                        color: #102c8a;
+                        font-size: 10px;
+                    }
+
+
+                    .main-container-3-parrafo{
+                        text-align: justify;
+                        font-size: 5.5px;
+                    }
+
+                    .parrafo-ven_a_conocernos{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0.5rem;
+                    }
+
+
+   .main-container-linea-divisora {
+       border: 2px solid #a1bccd;
+       height: 40vw;
+       margin: 2rem;
+   }

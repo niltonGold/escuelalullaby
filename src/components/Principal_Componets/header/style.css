@@ -3,6 +3,8 @@
 header{
     width: 100%;
     padding-top: 0.5rem;
+    /* background-color: aqua; */
+    height: 4.5rem;
 }
 
 
@@ -18,51 +20,6 @@ header{
     z-index: 2;
     /* background-color: aqua; */
 }
-
-
-        .lullaby_logo {
-            position: relative;
-            top: -1rem;
-            width: 84px;
-            height: 68px;
-            background-image: url('../../images/header/lullaby_logo.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        /* Contenedor de los 3 circulos del header */
-        .header-enlaces{
-            display: flex;
-            flex-direction: row;
-            gap: 0.5rem;
-            margin-bottom: 4rem;
-        }
-                   
-            
-                .header-escuelaDePadres{
-                    background-image : url('../../images/header/escueladepadres.png');
-                }
-
-
-                .header-zonaPrivada{
-                    background-image : url('../../images/header/zonaprivada.png');
-                }
-
-
-                .header-contacto{
-                    background-image : url('../../images/header/contacto.png');
-                }
-
-
-                .logoRedondoHeader{
-                    width: 34px;
-                    height: 34px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 100% 100%;
-                }
 
 
 /* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */
@@ -82,7 +39,7 @@ header{
 }
     
 
-        .header-paginas-navegacion-subcontainer {
+        /* .header-paginas-navegacion-subcontainer {
             display: flex;
             flex-direction: row;
             gap: 0.5rem;
@@ -109,7 +66,7 @@ header{
                 .header-navegacion-incio-logo{
                     width: 14px;
                     height: 13px;
-                    background-image: url('../../images/header/inicio_logo.png');
+                    background-image: url('../../../images/header/inicio_logo.png');
                     background-size: cover;
                 }
                   
@@ -117,15 +74,13 @@ header{
                 .header-navegacion-texto {
                     text-align: center;
                     font-size: 7.5px;
-                    /* line-height: 18px; */
                     font-weight: bold;
-                    /* background-color: rgb(68, 221, 221); */
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     font-family: 'Nunito', sans-serif;
                     color: #52646f;
-                }
+                } */
 
 
             
