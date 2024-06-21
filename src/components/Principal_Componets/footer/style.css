@@ -1,8 +1,6 @@
 
 footer {
     background-color: #ddedf7;
-    /* position: fixed; */
-    /* width: 100%; */
     bottom: 0;
     display: flex;
     flex-direction: row;
@@ -11,11 +9,11 @@ footer {
     align-items: center;
     align-self: center;
     gap: 0.5rem;
-    /* Espacio entre los elementos del footer */
+    position: fixed;
 }
 
 
-        .footer_facebook{
+        /* .footer_facebook{
             background-image: url('../../../images/footer/facebook.jpg');
         }
 
@@ -51,4 +49,4 @@ footer {
             background-repeat: no-repeat;
             background-position: center;
             background-size: 100% 100%;
-        }
+        } */

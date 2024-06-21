@@ -7,10 +7,10 @@ export const Main_container3_libro_notas = () => {
         <div className='main-container-3'>
                 
                 <div className='main-container-3-fondo-cuaderno-texto'>
-                    
+
                             <div className='main-container-3-parrafo-container'>
                                 
-                                    <h1 className='main-container-3-parrafo-titulo'>Ven a Conocernos</h1>
+                                    <div className='main-container-3-parrafo-titulo'>Ven a Conocernos</div>
                                     
                                     <div className='main-container-3-parrafo parrafo-ven_a_conocernos'>
                                         <div>
@@ -34,11 +34,11 @@ export const Main_container3_libro_notas = () => {
                             
                             </div>
                     
-                        <div className='main-container-linea-divisora'/>
+                            <div className='main-container-linea-divisora'/>
                     
                             <div className='main-container-3-parrafo-container'>
                                     
-                                    <h1 className='main-container-3-parrafo-titulo'>Aprendizaje por Descubrimiento</h1>
+                                    <div className='main-container-3-parrafo-titulo'>Aprendizaje por Descubrimiento</div>
                                     
                                     <div className='main-container-3-parrafo'>
                                         <div>

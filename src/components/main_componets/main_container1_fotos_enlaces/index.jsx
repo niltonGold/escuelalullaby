@@ -54,7 +54,7 @@ export const Main_container1_fotos_enlaces = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         setFadeIn(true);
       }, 2000); // Duración de la transición de salida antes de cambiar la imagen
-    }, 4000); // Intervalo de 4 segundos para incluir el tiempo de fade in y el tiempo de visualización
+    }, 3000); // Intervalo de 4 segundos para incluir el tiempo de fade in y el tiempo de visualización
 
     return () => clearInterval(intervalId);
   }, [images.length]);

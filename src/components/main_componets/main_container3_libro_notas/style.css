@@ -1,46 +1,66 @@
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
    .main-container-3 {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       background-image: url('../../../images/main/main-fondo-cuaderno.png');
-       background-repeat: no-repeat;
-       background-position: center;
-       background-size: contain;
+        background-image: url('../../../images/main/main-fondo-cuaderno.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+        width: 80%;
+        height: 11rem;
+        background-size: 100% 100%;
    }
 
 
-   .main-container-3-fondo-cuaderno-texto {
-       display: flex;
-       flex-direction: row;
-       width: 85%;
-   }
-
-
-            .main-container-3-parrafo-container {
-                padding-top: 2rem;
+            .main-container-3-fondo-cuaderno-texto{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                align-self: center;
+                justify-content: center;
+                /* background-color: #388ec3; */
+                height: 90%;
             }
 
 
-                    .main-container-3-parrafo-titulo{
-                        color: #102c8a;
-                        font-size: 10px;
-                    }
-
-
-                    .main-container-3-parrafo{
-                        text-align: justify;
-                        font-size: 5.5px;
-                    }
-
-                    .parrafo-ven_a_conocernos{
+                    .main-container-3-parrafo-container {
+                        width: 40%;
                         display: flex;
                         flex-direction: column;
                         gap: 0.5rem;
+                        padding-top: 1rem;
                     }
 
 
-   .main-container-linea-divisora {
-       border: 2px solid #a1bccd;
-       height: 40vw;
-       margin: 2rem;
-   }
+                            .main-container-3-parrafo-titulo {
+                                color: #102c8a;
+                                font-size: 10px;
+                                font-family: 'Roboto', sans-serif;
+                            }
+
+
+                            .main-container-3-parrafo {
+                                text-align: justify;
+                                font-size: 5.5px;
+                                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                            }
+
+
+                            .parrafo-ven_a_conocernos {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 0.5rem;
+                            }
+
+
+                    .main-container-linea-divisora {
+                        border: 1px solid #b8c8d2;
+                        height: 8.5rem;
+                        margin: 0.5rem;
+                        margin-top: 3rem;
+                    }
+
+
+
+
