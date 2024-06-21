@@ -9,7 +9,7 @@ footer {
     align-items: center;
     align-self: center;
     gap: 0.5rem;
-    position: fixed;
+    /* position: fixed; */
 }
 
 
