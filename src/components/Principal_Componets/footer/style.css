@@ -5,38 +5,58 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
     align-items: center;
     align-self: center;
     gap: 0.5rem;
-    /* position: fixed; */
 }
 
 
-        /* .footer_facebook{
-            background-image: url('../../../images/footer/facebook.jpg');
+
+        .footer-contacto-container-redes-sociales {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
         }
 
-        .footer_x{
-            background-image: url('../../../images/footer/x.png');
-        }
+                .footer-contacto-instagram {
+                    background-image: url('../../../images/main/instagram.png');
+                }
 
-        .footer_logoredSocial{
-            width: 8vw;
-            height: 8vw;
+
+                .footer-contacto-x {
+                    background-image: url('../../../images/main/x.png');
+                }
+
+
+                .footer-contacto-facebook {
+                    background-image: url('../../../images/main/facebook.jpg');
+
+                }
+
+
+        .footer-redSocial {
+            width: 20px;
+            height: 20px;
             background-repeat: no-repeat;
             background-position: center;
             background-size: 100% 100%;
+            border-radius: 5px;
         }
+
 
         .footer_contacto{
-
+            font-size: 5px;
         }
+
 
         .footer_comunidadMadridLogo{
             background-image: url('../../../images/footer/comunidad_de_madrid.png');
-            width: 40vw;
-            height: 20vw;
+            width: 6.5rem;
+            height: 3rem;
             background-repeat: no-repeat;
             background-position: center;
             background-size: 100% 100%;
@@ -49,4 +69,4 @@ footer {
             background-repeat: no-repeat;
             background-position: center;
             background-size: 100% 100%;
-        } */
+        } 
