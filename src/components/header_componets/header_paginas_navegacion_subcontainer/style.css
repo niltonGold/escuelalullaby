@@ -1,11 +1,15 @@
-        .header-paginas-navegacion-subcontainer {
-            display: flex;
-            flex-direction: row;
-            gap: 0.5rem;
-            position: relative;
-            top: -10px;
-            padding-right: 0.5rem;
-        }
+    
+@media (max-width: 480px) {
+    
+    .header-paginas-navegacion-subcontainer {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        position: relative;
+        top: -33px;
+        padding-right: 0.3rem;
+        /* background-color: rgba(149, 246, 160, 0.4); */
+    }
 
 
         .header-navegacion-link-container {
@@ -14,6 +18,12 @@
             flex-direction: column;
             align-self: center;
             align-items: center;
+            /* cursor: pointer; */
+            /* background-color: rgba(244, 254, 133, 0.4); */
+        }
+
+        .header-pointer{
+            cursor: pointer;
         }
 
 
@@ -40,3 +50,189 @@
             font-family: 'Nunito', sans-serif;
             color: #52646f;
         }
+
+}
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+    .header-paginas-navegacion-subcontainer {
+            display: flex;
+            flex-direction: row;
+            gap: 0.7rem;
+            position: relative;
+            top: -35px;
+            padding-right: 0.3rem;
+            /* background-color: rgba(149, 246, 160, 0.4); */
+        }
+    
+    
+    .header-navegacion-link-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        /* cursor: pointer; */
+        /* background-color: rgba(244, 254, 133, 0.4); */
+    }
+
+    .header-pointer {
+        cursor: pointer;
+    }
+
+
+
+    .header-logo-hide {
+        visibility: hidden;
+    }
+
+    .header-navegacion-incio-logo {
+        width: 16px;
+        height: 15px;
+        background-image: url('../../../images/header/inicio_logo.png');
+        background-size: cover;
+    }
+
+
+    .header-navegacion-texto {
+        text-align: center;
+        font-size: 8px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+        color: #52646f;
+    }
+
+}
+
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+
+        .header-paginas-navegacion-subcontainer {
+                display: flex;
+                flex-direction: row;
+                /* gap: 0.5rem; */
+                position: relative;
+                top: -49px;
+                padding-right: 0.3rem;
+                /* background-color: rgba(149, 246, 160, 0.4); */
+                width: 33rem;
+                justify-content: space-between;
+            }
+        
+        
+            .header-navegacion-link-container {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                align-items: center;
+                /* cursor: pointer; */
+                /* background-color: rgba(244, 254, 133, 0.4); */
+                /* background-color: #52646f; */
+            }
+        
+            .header-pointer {
+                cursor: pointer;
+            }
+        
+        
+        
+            .header-logo-hide {
+                visibility: hidden;
+            }
+        
+            .header-navegacion-incio-logo {
+                width: 35px;
+                height: 30px;
+                background-image: url('../../../images/header/inicio_logo.png');
+                background-size: cover;
+                /* background-color: antiquewhite; */
+                
+            }
+            
+            /* .i{
+                width: 3rem;
+            } */
+        
+            .header-navegacion-texto {
+                text-align: center;
+                font-size: 13px;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Nunito', sans-serif;
+                color: #52646f;
+            }
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+    .header-paginas-navegacion-subcontainer {
+        display: flex;
+        flex-direction: row;
+        /* gap: 0.5rem; */
+        position: relative;
+        top: -52px;
+        padding-right: 0.3rem;
+        /* background-color: rgba(149, 246, 160, 0.4); */
+        width: 44rem;
+        justify-content: space-between;
+    }
+
+
+    .header-navegacion-link-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        /* cursor: pointer; */
+        /* background-color: rgba(244, 254, 133, 0.4); */
+        /* background-color: #52646f; */
+    }
+
+    .header-pointer {
+        cursor: pointer;
+    }
+
+
+
+    .header-logo-hide {
+        visibility: hidden;
+    }
+
+    .header-navegacion-incio-logo {
+        width: 35px;
+        height: 30px;
+        background-image: url('../../../images/header/inicio_logo.png');
+        background-size: cover;
+        /* background-color: antiquewhite; */
+
+    }
+
+    /* .i{
+                width: 3rem;
+            } */
+
+    .header-navegacion-texto {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+        color: #52646f;
+    }
+
+}
+

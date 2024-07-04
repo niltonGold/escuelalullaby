@@ -2,8 +2,8 @@ import React from 'react';
 import './style.css';
 import { useNavigate } from 'react-router-dom';
 
-export const Header_lullaby_logo = () => {
-
+export const Excursiones = () => {
+  
   const navigate = useNavigate();
 
   const handleInicioClick = () => {
@@ -12,7 +12,8 @@ export const Header_lullaby_logo = () => {
 
   return (
       <>
-        <div className='lullaby_logo' onClick={handleInicioClick} />
+        <div onClick={handleInicioClick} >&gt;&gt;Volver al Inicio</div>
+        <div>Excursiones</div>
       </>
   )
 }

@@ -1,18 +1,25 @@
-.main-container-2_contacto {
+
+@media (max-width: 480px) {
+
+.main-container-2_contacto{
     background-color: #ddedf7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-container-2_contacto-sub {
+    /* background-color: #ddedf7; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 0.5rem;
-    /* box-sizing: border-box; */
-    /* overflow: hidden; */
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
     align-items: center;
     align-self: center;
-    width: 90%;
+    /* width: 20rem; */
 }
      
 
@@ -20,6 +27,11 @@
            display: flex;
            flex-direction: column;
        }
+
+
+        .main-contacto-container-direccion{
+            padding-left: 0.5rem;
+        }
 
 
             .main-contacto-texto {
@@ -38,6 +50,7 @@
            display: flex;
            flex-direction: row;
            gap: 0.5rem;
+           padding-right: 0.5rem;
        }
 
             .main-contacto-instagram {
@@ -64,3 +77,256 @@
            background-size: 100% 100%;
            border-radius: 5px;
        }
+
+}
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+    .main-container-2_contacto {
+        background-color: #ddedf7;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .main-container-2_contacto-sub {
+        /* background-color: #2e76a3; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        align-items: center;
+        align-self: center;
+        width: 24.5rem;
+    }
+
+
+    .main-contacto-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .main-contacto-container-direccion {
+        padding-left: 0.5rem;
+    }
+
+
+    .main-contacto-texto {
+        color: #102c8a;
+        font-size: 8px;
+    }
+
+
+    .main-contacto-texto-telefono {
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+
+    .main-contacto-container-redes-sociales {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .main-contacto-instagram {
+        background-image: url('../../../images/main/instagram.png');
+    }
+
+
+    .main-contacto-x {
+        background-image: url('../../../images/main/x.png');
+    }
+
+
+    .main-contacto-facebook {
+        background-image: url('../../../images/main/facebook.jpg');
+
+    }
+
+
+    .main-redSocial {
+        width: 18px;
+        height: 18px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        border-radius: 5px;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+
+    .main-container-2_contacto {
+            background-color: #ddedf7;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            /* height: 3rem; */
+        }
+    
+    
+        .main-container-2_contacto-sub {
+            /* background-color: #2e76a3; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 0.5rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            align-items: center;
+            align-self: center;
+            width: 44rem;
+            /* background-color: #1796e5; */
+        }
+    
+    
+        .main-contacto-container {
+            display: flex;
+            flex-direction: column;
+        }
+    
+    
+        .main-contacto-container-direccion {
+            padding-left: 0.5rem;
+        }
+    
+    
+        .main-contacto-texto {
+            color: #102c8a;
+            font-size: 15px;
+        }
+    
+    
+        .main-contacto-texto-telefono {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    
+    
+        .main-contacto-container-redes-sociales {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
+            padding-right: 0.5rem;
+        }
+    
+        .main-contacto-instagram {
+            background-image: url('../../../images/main/instagram.png');
+        }
+    
+    
+        .main-contacto-x {
+            background-image: url('../../../images/main/x.png');
+        }
+    
+    
+        .main-contacto-facebook {
+            background-image: url('../../../images/main/facebook.jpg');
+    
+        }
+    
+    
+        .main-redSocial {
+            width: 35px;
+            height: 35px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            border-radius: 5px;
+        }
+
+}
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+    .main-container-2_contacto {
+            background-color: #ddedf7;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            /* height: 3rem; */
+        }
+    
+    
+        .main-container-2_contacto-sub {
+            /* background-color: #2e76a3; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 0.5rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            align-items: center;
+            align-self: center;
+            width: 52rem;
+            /* background-color: #1796e5; */
+        }
+    
+    
+        .main-contacto-container {
+            display: flex;
+            flex-direction: column;
+        }
+    
+    
+        .main-contacto-container-direccion {
+            padding-left: 0.5rem;
+        }
+    
+    
+        .main-contacto-texto {
+            color: #102c8a;
+            font-size: 16px;
+        }
+    
+    
+        .main-contacto-texto-telefono {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    
+    
+        .main-contacto-container-redes-sociales {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
+            padding-right: 0.5rem;
+        }
+    
+        .main-contacto-instagram {
+            background-image: url('../../../images/main/instagram.png');
+        }
+    
+    
+        .main-contacto-x {
+            background-image: url('../../../images/main/x.png');
+        }
+    
+    
+        .main-contacto-facebook {
+            background-image: url('../../../images/main/facebook.jpg');
+    
+        }
+    
+    
+        .main-redSocial {
+            width: 38px;
+            height: 38px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            border-radius: 5px;
+        }
+}

@@ -1,12 +1,84 @@
 
 
-.lullaby_logo {
-    position: relative;
-    top: -1rem;
-    width: 84px;
-    height: 68px;
-    background-image: url('../../../images/header/lullaby_logo.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+
+@media (max-width: 480px) {
+    
+    .lullaby_logo {
+        position: relative;
+        top: -1rem;
+        width: 84px;
+        height: 68px;
+        background-image: url('../../../images/header/lullaby_logo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        z-index: 2;
+        cursor: pointer;
+        /* background-color: rgba(133, 151, 254, 0.4); */
+    }
+
 }
+
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+    .lullaby_logo {
+        position: relative;
+        top: 0rem;
+        width: 126px;
+        height: 102px;
+        background-image: url('../../../images/header/lullaby_logo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        z-index: 2;
+        cursor: pointer;
+        /* background-color: rgba(133, 151, 254, 0.4); */
+    }
+
+}
+
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+   
+    .lullaby_logo {
+            position: relative;
+            top: 0.3rem;
+            width: 202px;
+            height: 165px;
+            background-image: url('../../../images/header/lullaby_logo.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            z-index: 2;
+            cursor: pointer;
+            /* background-color: rgba(133, 151, 254, 0.4); */
+        }
+        
+}
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+    
+    .lullaby_logo {
+            position: relative;
+            top: 0.2rem;
+            width: 253px;
+            height: 205px;
+            background-image: url('../../../images/header/lullaby_logo.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            z-index: 2;
+            cursor: pointer;
+            /* background-color: rgba(133, 151, 254, 0.4); */
+        }
+
+
+}
+

@@ -2,17 +2,18 @@ import React from 'react';
 import './style.css';
 import { useNavigate } from 'react-router-dom';
 
-export const Header_lullaby_logo = () => {
+export const Fotos = () => {
 
   const navigate = useNavigate();
 
-  const handleInicioClick = () => {
+  const handleInicioClickk = () => {
     navigate('/');
   };
 
   return (
       <>
-        <div className='lullaby_logo' onClick={handleInicioClick} />
+        <div className='fotos-main' onClick={handleInicioClickk} >&gt;&gt;Volver al Inicio</div>
+        <div>Fotos</div>
       </>
   )
 }

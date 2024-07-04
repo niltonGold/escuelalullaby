@@ -4,7 +4,11 @@ import { Main_container1_fotos_enlaces } from '../../main_componets/main_contain
 import { Main_container2_contacto } from '../../main_componets/main_container2_contacto';
 import { Main_container3_libro_notas } from '../../main_componets/main_container3_libro_notas';
 
+
 export const Main = () => {
+
+
+    
     return (
         <main>
 
@@ -14,9 +18,8 @@ export const Main = () => {
             {/* Contenedor de los datos de contacto*/}
             <Main_container2_contacto/>
 
-            <Main_container3_libro_notas/>
-           
-
+            <Main_container3_libro_notas />
+            
         </main>    
   )
 }

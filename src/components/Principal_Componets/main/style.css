@@ -1,22 +1,80 @@
 
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    /* background-color: antiquewhite; */
-    width: 100%;
-    /* flex: 1; */
+
+@media (max-width: 480px) {
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        /* background-color: antiquewhite; */
+        /* width: 100%; */
+        /* flex: 1; */
+        /* z-index: 2; */
+        /* background-color: antiquewhite; */
+        width: 100%;
+    }
+
 }
 
 
+@media (min-width: 481px) and (max-width: 780px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        /* background-color: antiquewhite; */
+        /* width: 100%; */
+        /* flex: 1; */
+        /* z-index: 2; */
+        /* background-color: antiquewhite; */
+        width: 100%;
+    }
 
 
+}
 
 
+@media (min-width: 781px) and (max-width: 980px) {
+
+    main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            /* background-color: antiquewhite; */
+            /* width: 100%; */
+            /* flex: 1; */
+            /* z-index: 2; */
+            /* background-color: antiquewhite; */
+            width: 100%;
+        }
+
+}
 
 
+@media (min-width: 981px) and (max-width: 1200px) {
+
+    main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            /* background-color: antiquewhite; */
+            /* width: 100%; */
+            /* flex: 1; */
+            /* z-index: 2; */
+            /* background-color: antiquewhite; */
+            width: 100%;
+        }
+
+}
 
 
      

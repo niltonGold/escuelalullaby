@@ -1,87 +1,291 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
-header{
-    width: 100%;
-    padding-top: 0.5rem;
-    /* background-color: aqua; */
-    height: 4.5rem;
-    /* flex: 1; */
+
+
+@media (max-width: 480px) {
+    
+
+    header {
+        width: 100%;
+        padding-top: 0.5rem;
+        height: 4.5rem;
+        /* background-color: rgb(255, 215, 0, 0.4); */
+    }
+
+
+    .backgroud-enlaces-pages {
+        background-color: #ddedf7;
+        height: 1.1rem;
+        width: 100%;
+        position: relative;
+        top: -3.6rem;
+    }
+
+
+    /* Contenedor de el Logo de Lullaby y los 3 circulos con enlaces (Escuela de Padres, Zona Privada, Contacto) */
+    .header-enlaces-container{
+        /* background-color: rgba(75, 73, 81, 0.4); */
+        display: flex;
+        justify-content: center;
+    }
+    .header-enlaces-container-sub {
+        display: flex;
+        justify-content: space-between;
+        /* padding-left: 0.5rem;
+        padding-right: 0.5rem; */
+        align-self: center;
+        align-items: center;
+        /* position: relative; */
+        /* background-color: rgba(205, 188, 246, 0.4); */
+        /* height: 5rem; */
+        /* z-index: 1; */
+        width: 20.5rem;
+    }
+
+
+    /* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */
+    .header-paginas-navegacion{
+        /* background-color: rgb(138, 43, 226,0.5); */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .header-paginas-navegacion-sub {
+        display: flex;
+        flex-direction: row;
+        gap: 0.7rem;
+        justify-content: right;
+        flex-wrap: wrap;
+        position: relative;
+        top: -3.3rem;
+        left: 0;
+        width: 20.5rem;
+        height: 1rem;
+        /* background-color: rgb(240, 255, 255,0.5); */
+    }
+
+
 }
 
 
-/* Contenedor de el Logo de Lullaby y los 3 circulos con enlaces (Escuela de Padres, Zona Privada, Contacto) */
-.header-enlaces-container{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    align-self: center;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-    /* background-color: aqua; */
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+
+    header {
+        width: 100%;
+        padding-top: 0.5rem;
+        height: 6.5rem;
+        /* background-color: rgb(255, 215, 0, 0.4); */
+    }
+    
+    
+    .backgroud-enlaces-pages {
+        background-color: #ddedf7;
+        height: 1.6rem;
+        width: 100%;
+        position: relative;
+        top: -2.9rem;
+    }
+
+
+    /* Contenedor de el Logo de Lullaby y los 3 circulos con enlaces (Escuela de Padres, Zona Privada, Contacto) */
+    .header-enlaces-container {
+        /* background-color: rgba(75, 73, 81, 0.4); */
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .header-enlaces-container-sub {
+        display: flex;
+        justify-content: space-between;
+        /* padding-left: 0.5rem;
+        padding-right: 0.5rem; */
+        align-self: center;
+        align-items: center;
+        /* position: relative; */
+        /* background-color: rgba(205, 188, 246, 0.4); */
+        /* height: 5rem; */
+        /* z-index: 1; */
+        width: 24.5rem;
+    }
+
+
+    /* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */
+    .header-paginas-navegacion {
+        /* background-color: rgb(138, 43, 226,0.5); */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .header-paginas-navegacion-sub {
+        display: flex;
+        flex-direction: row;
+        /* gap: 1rem; */
+        justify-content: right;
+        flex-wrap: wrap;
+        position: relative;
+        top: -2.8rem;
+        left: 0;
+        width: 24.5rem;
+        height: 1rem;
+        background-color: rgb(240, 255, 255,0.5);
+    }
+
+
 }
 
 
-/* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */
-.header-paginas-navegacion {
-    background-color: #ddedf7;
-    display: flex;
-    flex-direction: row;
-    gap: 0.7rem;
-    justify-content: right;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 3rem;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    height: 1rem;
+
+
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+    
+    header {
+            width: 100%;
+            padding-top: 0.5rem;
+            height: 10.5rem;
+            /* background-color: rgb(255, 215, 0, 0.4); */
+        }
+    
+    
+        .backgroud-enlaces-pages {
+            background-color: #ddedf7;
+            height: 2.5rem;
+            width: 100%;
+            position: relative;
+            top: -4rem;
+        }
+    
+    
+        /* Contenedor de el Logo de Lullaby y los 3 circulos con enlaces (Escuela de Padres, Zona Privada, Contacto) */
+        .header-enlaces-container {
+            /* background-color: rgba(75, 73, 81, 0.4); */
+            display: flex;
+            justify-content: center;
+        }
+    
+    
+        .header-enlaces-container-sub {
+            display: flex;
+            justify-content: space-between;
+            /* padding-left: 0.5rem;
+            padding-right: 0.5rem; */
+            align-self: center;
+            align-items: center;
+            /* position: relative; */
+            /* background-color: rgba(205, 188, 246, 0.4); */
+            /* height: 5rem; */
+            /* z-index: 1; */
+            width: 47rem;
+        }
+    
+    
+        /* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */
+        .header-paginas-navegacion {
+            /* background-color: rgb(138, 43, 226,0.5); */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    
+    
+        .header-paginas-navegacion-sub {
+            display: flex;
+            flex-direction: row;
+            /* gap: 1rem; */
+            justify-content: right;
+            flex-wrap: wrap;
+            position: relative;
+            top: -4.5rem;
+            left: 0;
+            width: 45rem;
+            height: 1rem;
+            /* background-color: rgba(31, 141, 141, 0.5); */
+        }
+
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+    header {
+            width: 100%;
+            padding-top: 0.5rem;
+            height: 14rem;
+            /* background-color: rgb(255, 215, 0, 0.4); */
+        }
+    
+    
+        .backgroud-enlaces-pages {
+            background-color: #ddedf7;
+            height: 3rem;
+            width: 100%;
+            position: relative;
+            top: -5.1rem;
+        }
+    
+    
+        /* Contenedor de el Logo de Lullaby y los 3 circulos con enlaces (Escuela de Padres, Zona Privada, Contacto) */
+        .header-enlaces-container {
+            /* background-color: rgba(75, 73, 81, 0.4); */
+            display: flex;
+            justify-content: center;
+        }
+    
+    
+        .header-enlaces-container-sub {
+            display: flex;
+            justify-content: space-between;
+            /* padding-left: 0.5rem;
+                padding-right: 0.5rem; */
+            align-self: center;
+            align-items: center;
+            /* position: relative; */
+            /* background-color: rgba(205, 188, 246, 0.4); */
+            /* height: 5rem; */
+            /* z-index: 1; */
+            width: 60rem;
+        }
+    
+    
+        /* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */
+        .header-paginas-navegacion {
+            /* background-color: rgb(138, 43, 226,0.5); */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    
+    
+        .header-paginas-navegacion-sub {
+            display: flex;
+            flex-direction: row;
+            /* gap: 1rem; */
+            justify-content: right;
+            flex-wrap: wrap;
+            position: relative;
+            top: -5.9rem;
+            left: 0;
+            width: 60rem;
+            height: 1rem;
+            /* background-color: rgba(31, 141, 141, 0.5); */
+        }
+
 }
     
 
-        /* .header-paginas-navegacion-subcontainer {
-            display: flex;
-            flex-direction: row;
-            gap: 0.5rem;
-            position: relative;
-            top: -10px;
-            padding-right: 0.5rem;
-        }
-
-
-        .header-navegacion-link-container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-self: center;
-            align-items: center;
-        }
-               
-        
-
-        .header-logo-hide{
-            visibility: hidden;
-        }
-        
-                .header-navegacion-incio-logo{
-                    width: 14px;
-                    height: 13px;
-                    background-image: url('../../../images/header/inicio_logo.png');
-                    background-size: cover;
-                }
-                  
-                
-                .header-navegacion-texto {
-                    text-align: center;
-                    font-size: 7.5px;
-                    font-weight: bold;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    font-family: 'Nunito', sans-serif;
-                    color: #52646f;
-                } */
 
 
             

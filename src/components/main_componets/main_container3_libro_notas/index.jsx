@@ -8,6 +8,7 @@ export const Main_container3_libro_notas = () => {
                 
                 <div className='main-container-3-fondo-cuaderno-texto'>
 
+                            
                             <div className='main-container-3-parrafo-container'>
                                 
                                     <div className='main-container-3-parrafo-titulo'>Ven a Conocernos</div>

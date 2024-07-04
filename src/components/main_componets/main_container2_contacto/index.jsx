@@ -5,8 +5,9 @@ export const Main_container2_contacto = () => {
   return (
       <>
         <div className='main-container-2_contacto'>
+                <div className='main-container-2_contacto-sub'>
                     
-                    <div className='main-contacto-container'>
+                    <div className='main-contacto-container main-contacto-container-direccion'>
                         <b className='main-contacto-texto'>Dirección :</b>
                         <div className='main-contacto-texto'>C/Salónica 43 Las Rozas de Madrid</div>
                     </div>
@@ -26,6 +27,7 @@ export const Main_container2_contacto = () => {
                         <div className='main-contacto-facebook main-redSocial'/>
                     </div>
                    
+                </div>
         </div>
       </>
   )
