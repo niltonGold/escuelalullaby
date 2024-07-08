@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 @media (max-width: 480px) {
 
@@ -30,26 +31,41 @@
                 width: 40%;
                 display: flex;
                 flex-direction: column;
-                gap: 0.5rem;
+                gap: 0.4rem;
                 padding-top: 1rem;
                 /* background-color: aliceblue; */
                 height: 7rem;
-                width: 6rem;
+                width: 6.5rem;
             }
 
 
                     .main-container-3-parrafo-titulo {
-                        color: #102c8a;
                         font-size: 10px;
-                        font-family: 'Roboto', sans-serif;
+                        font-family: 'Roboto';
                         font-weight: bold;
+                        font-style: normal;
+                        text-decoration: none;
+                        text-transform: none;
+                        color: #102c8a;
+                        background-color: initial;
+                        letter-spacing: normal;
+                        text-shadow: none;
                     }
 
 
                     .main-container-3-parrafo {
                         text-align: justify;
-                        font-size: 5.5px;
+                        font-size: 5px;
                         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        text-decoration: none;
+                        text-transform: none;
+                        color: #040000;
+                        background-color: initial;
+                        letter-spacing: normal;
+                        text-shadow: none;
+                        line-height: 6.7px;
                     }
 
 
@@ -106,23 +122,41 @@
             padding-top: 1rem;
             /* background-color: rgb(240, 248, 255, 0.5); */
             height: 9rem;
-            width: 9.5rem;
+            width: 9.2rem;
         }
 
 
-        .main-container-3-parrafo-titulo {
-            color: #102c8a;
-            font-size: 12px;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-        }
 
 
-        .main-container-3-parrafo {
-            text-align: justify;
-            font-size: 7px;
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        }
+                                        .main-container-3-parrafo-titulo {
+                                            font-size: 12px;
+                                            font-family: 'Roboto', sans-serif;
+                                            font-weight: bold;
+                                            font-style: normal;
+                                            text-decoration: none;
+                                            text-transform: none;
+                                            color: #102c8a;
+                                            background-color: initial;
+                                            letter-spacing: normal;
+                                            text-shadow: none;
+                                        }
+
+
+                                        .main-container-3-parrafo {
+                                            text-align: justify;
+                                            font-size: 7px;
+                                            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                                            font-weight: 400;
+                                            font-style: normal;
+                                            text-decoration: none;
+                                            text-transform: none;
+                                            color: #040000;
+                                            background-color: initial;
+                                            letter-spacing: normal;
+                                            text-shadow: none;
+                                            line-height: 10px;
+                                        }
+
 
 
         .parrafo-ven_a_conocernos {
@@ -132,17 +166,13 @@
             
         }
 
-        /* .ppppp{
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            background-color: antiquewhite;
-        } */
 
 
         .main-container-linea-divisora {
             border: 1px solid #b8c8d2;
-            height: 7rem;
-            margin: 0.5rem;
-            margin-top: 3rem;
+            height: 10rem;
+            margin: 1rem;
+            margin-top: 4rem;
         }
 
 
@@ -191,10 +221,16 @@
     
     
         .main-container-3-parrafo-titulo {
-            color: #102c8a;
             font-size: 22px;
             font-family: 'Roboto', sans-serif;
             font-weight: bold;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            color: #102c8a;
+            background-color: initial;
+            letter-spacing: normal;
+            text-shadow: none;
         }
     
     
@@ -202,6 +238,15 @@
             text-align: justify;
             font-size: 12px;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            color: #040000;
+            background-color: initial;
+            letter-spacing: normal;
+            text-shadow: none;
+            line-height: 16px;
         }
     
     
@@ -212,17 +257,14 @@
     
         }
     
-        /* .ppppp{
-                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-                background-color: antiquewhite;
-            } */
+
     
     
         .main-container-linea-divisora {
             border: 1px solid #b8c8d2;
-            height: 7rem;
+            height: 16rem;
             margin: 1.5rem;
-            margin-top: 3rem;
+            margin-top: 6rem;
         }
 
 }
@@ -259,7 +301,7 @@
             display: flex;
             flex-direction: column;
             gap: 0.5rem;
-            padding-top: 1rem;
+            padding-top: 0.1rem;
             /* background-color: rgba(99, 174, 240, 0.5); */
             height: 17rem;
             width: 18rem;
@@ -267,10 +309,17 @@
     
     
         .main-container-3-parrafo-titulo {
-            color: #102c8a;
             font-size: 28px;
+            color: #102c8a;
             font-family: 'Roboto', sans-serif;
             font-weight: bold;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            color: #102c8a;
+            background-color: initial;
+            letter-spacing: normal;
+            text-shadow: none;
         }
     
     
@@ -278,6 +327,15 @@
             text-align: justify;
             font-size: 16px;
             font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            color: #040000;
+            background-color: initial;
+            letter-spacing: normal;
+            text-shadow: none;
+            line-height: 20px;
         }
     
     
@@ -288,17 +346,100 @@
     
         }
     
-        /* .ppppp{
-                    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-                    background-color: antiquewhite;
-                } */
+    
+        .main-container-linea-divisora {
+            border: 1.9px solid #b8c8d2;
+            height: 21rem;
+            margin: 1.5rem;
+            margin-top: 8rem;
+        }
+
+}
+
+
+@media (min-width: 1201px) {
+
+    .main-container-3 {
+            background-image: url('../../../images/main/main-fondo-cuaderno.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            position: relative;
+            width: 65rem;
+            height: 40rem;
+            background-size: 100% 100%;
+            /* background-color: rgb(184, 200, 210, 0.5); */
+            margin-bottom: 2rem;
+        }
+    
+    
+        .main-container-3-fondo-cuaderno-texto {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-self: center;
+            justify-content: center;
+            height: 90%;
+            /* background-color: rgb(240, 248, 255,0.5); */
+        }
+    
+    
+        .main-container-3-parrafo-container {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            padding-top: 2rem;
+            /* background-color: rgba(99, 174, 240, 0.5); */
+            height: 25rem;
+            width: 25rem;
+        }
+    
+    
+        .main-container-3-parrafo-titulo {
+            font-size: 40px;
+            color: #102c8a;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            color: #102c8a;
+            background-color: initial;
+            letter-spacing: normal;
+            text-shadow: none;
+        }
+    
+    
+        .main-container-3-parrafo {
+            text-align: justify;
+            font-size: 20px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            color: #040000;
+            background-color: initial;
+            letter-spacing: normal;
+            text-shadow: none;
+            line-height: 28px;
+        }
+    
+    
+        .parrafo-ven_a_conocernos {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+    
+        }
     
     
         .main-container-linea-divisora {
-            border: 1px solid #b8c8d2;
-            height: 7rem;
+            border: 2px solid #b8c8d2;
+            height: 29rem;
             margin: 1.5rem;
-            margin-top: 3rem;
+            margin-top: 9.2rem;
         }
 
 }

@@ -23,6 +23,7 @@ return (
                         </div>
                 </div>
                 
+                {/* Contenedor de la linea celeste donde estan los enlaces a las paginas */}
                 <div className='backgroud-enlaces-pages' />
                             
                 {/* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */}

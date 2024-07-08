@@ -5,66 +5,69 @@
 @media (max-width: 480px) {
     
 
-    header {
-        width: 100%;
-        padding-top: 0.5rem;
-        height: 4.5rem;
-        /* background-color: rgb(255, 215, 0, 0.4); */
-    }
+        header {
+            width: 100%;
+            height: 4.3rem;
+            padding-top: 0.5rem;
+            /* background-color: rgb(255, 215, 0, 0.4); */
+        }
 
 
-    .backgroud-enlaces-pages {
-        background-color: #ddedf7;
-        height: 1.1rem;
-        width: 100%;
-        position: relative;
-        top: -3.6rem;
-    }
+        /* Contenedor de el Logo de Lullaby y los 3 circulos con enlaces (Escuela de Padres, Zona Privada, Contacto) */
+        .header-enlaces-container {
+            /* background-color: rgba(75, 73, 81, 0.4); */
+            display: flex;
+            justify-content: center;
+        }
 
 
-    /* Contenedor de el Logo de Lullaby y los 3 circulos con enlaces (Escuela de Padres, Zona Privada, Contacto) */
-    .header-enlaces-container{
-        /* background-color: rgba(75, 73, 81, 0.4); */
-        display: flex;
-        justify-content: center;
-    }
-    .header-enlaces-container-sub {
-        display: flex;
-        justify-content: space-between;
-        /* padding-left: 0.5rem;
-        padding-right: 0.5rem; */
-        align-self: center;
-        align-items: center;
-        /* position: relative; */
-        /* background-color: rgba(205, 188, 246, 0.4); */
-        /* height: 5rem; */
-        /* z-index: 1; */
-        width: 20.5rem;
-    }
+        .backgroud-enlaces-pages {
+            width: 100%;
+            height: 1.1rem;
+            top: -3.9rem;
+            position: relative;
+            background-color: #ddedf7;
+        }
 
 
-    /* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */
-    .header-paginas-navegacion{
-        /* background-color: rgb(138, 43, 226,0.5); */
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+       
+        .header-enlaces-container-sub {
+            display: flex;
+            justify-content: space-between;
+            /* padding-left: 0.5rem;
+            padding-right: 0.5rem; */
+            align-self: center;
+            align-items: center;
+            /* position: relative; */
+            /* background-color: rgba(205, 188, 246, 0.4); */
+            /* height: 5rem; */
+            /* z-index: 1; */
+            width: 20.5rem;
+        }
 
 
-    .header-paginas-navegacion-sub {
-        display: flex;
-        flex-direction: row;
-        gap: 0.7rem;
-        justify-content: right;
-        flex-wrap: wrap;
-        position: relative;
-        top: -3.3rem;
-        left: 0;
-        width: 20.5rem;
-        height: 1rem;
-        /* background-color: rgb(240, 255, 255,0.5); */
-    }
+        /* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */
+        .header-paginas-navegacion{
+            /* background-color: rgb(138, 43, 226,0.5); */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .header-paginas-navegacion-sub {
+            display: flex;
+            flex-direction: row;
+            gap: 0.7rem;
+            justify-content: right;
+            flex-wrap: wrap;
+            position: relative;
+            top: -4rem;
+            left: 0;
+            width: 20.5rem;
+            height: 1rem;
+            /* background-color: rgb(240, 255, 255,0.5); */
+        }
 
 
 }
@@ -112,7 +115,7 @@
         /* background-color: rgba(205, 188, 246, 0.4); */
         /* height: 5rem; */
         /* z-index: 1; */
-        width: 24.5rem;
+        width: 28rem;
     }
 
 
@@ -134,9 +137,9 @@
         position: relative;
         top: -2.8rem;
         left: 0;
-        width: 24.5rem;
+        width: 28rem;
         height: 1rem;
-        background-color: rgb(240, 255, 255,0.5);
+        /* background-color: rgb(240, 255, 255,0.5); */
     }
 
 
@@ -152,8 +155,8 @@
     
     header {
             width: 100%;
-            padding-top: 0.5rem;
-            height: 10.5rem;
+            padding-top: 0rem;
+            height: 11rem;
             /* background-color: rgb(255, 215, 0, 0.4); */
         }
     
@@ -163,7 +166,7 @@
             height: 2.5rem;
             width: 100%;
             position: relative;
-            top: -4rem;
+            top: -3.8rem;
         }
     
     
@@ -192,7 +195,7 @@
     
         /* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */
         .header-paginas-navegacion {
-            /* background-color: rgb(138, 43, 226,0.5); */
+            /* background-color: rgba(202, 178, 223, 0.5); */
             width: 100%;
             display: flex;
             justify-content: center;
@@ -206,7 +209,7 @@
             justify-content: right;
             flex-wrap: wrap;
             position: relative;
-            top: -4.5rem;
+            top: -4.1rem;
             left: 0;
             width: 45rem;
             height: 1rem;
@@ -287,5 +290,74 @@
     
 
 
+
+
+@media (min-width: 1201px) {
+
+    header {
+            width: 100%;
+            padding-top: 0.5rem;
+            height: 17rem;
+            /* background-color: rgb(255, 215, 0, 0.4); */
+        }
+    
+    
+        .backgroud-enlaces-pages {
+            background-color: #ddedf7;
+            height: 3.8rem;
+            width: 100%;
+            position: relative;
+            top: -6.5rem;
+        }
+    
+    
+        /* Contenedor de el Logo de Lullaby y los 3 circulos con enlaces (Escuela de Padres, Zona Privada, Contacto) */
+        .header-enlaces-container {
+            /* background-color: rgba(75, 73, 81, 0.4); */
+            display: flex;
+            justify-content: center;
+        }
+    
+    
+        .header-enlaces-container-sub {
+            display: flex;
+            justify-content: space-between;
+            /* padding-left: 0.5rem;
+                    padding-right: 0.5rem; */
+            align-self: center;
+            align-items: center;
+            /* position: relative; */
+            /* background-color: rgba(205, 188, 246, 0.4); */
+            /* height: 5rem; */
+            /* z-index: 1; */
+            width: 72rem;
+            
+        }
+    
+    
+        /* Contenedor de los enlaces de navegacion (Inicio, Quiénes Somos, Instalacines, Inglés, Equipo) */
+        .header-paginas-navegacion {
+            /* background-color: rgb(138, 43, 226,0.5); */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    
+    
+        .header-paginas-navegacion-sub {
+            display: flex;
+            flex-direction: row;
+            /* gap: 1rem; */
+            justify-content: right;
+            flex-wrap: wrap;
+            position: relative;
+            top: -7.8rem;
+            left: 0;
+            width: 72rem;
+            height: 1rem;
+            /* background-color: rgba(31, 141, 141, 0.5); */
+        }
+
+}
 
             
