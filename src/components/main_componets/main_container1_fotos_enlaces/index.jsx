@@ -20,8 +20,6 @@ import imagen16 from '../../../images/main/main-imagen16.jpg';
 import imagen17 from '../../../images/main/main-imagen17.jpg';
 import imagen18 from '../../../images/main/main-imagen18.jpg';
 
-
-
 export const Main_container1_fotos_enlaces = () => {
 
   const images = [
@@ -45,7 +43,7 @@ export const Main_container1_fotos_enlaces = () => {
     imagen18,
   ];
 
-  const [currentIndex, setCurrentIndex] = useState( 0 );
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [fadeIn, setFadeIn] = useState(true);
   
   const navigate = useNavigate();
@@ -81,42 +79,31 @@ export const Main_container1_fotos_enlaces = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         setFadeIn(true);
       }, 1000); // Duración de la transición de salida antes de cambiar la imagen
-    }, 2000); // Intervalo de 4 segundos para incluir el tiempo de fade in y el tiempo de visualización
+    }, 5000); // Intervalo de 5 segundos para incluir el tiempo de fade in y el tiempo de visualización
 
     return () => clearInterval(intervalId);
   }, [images.length]);
 
   return (
-      <>
-        <div className='main-container-1_fotos_enlaces'>
+    <div className='main-container-1_fotos_enlaces'>
+      <div className='main-enlaces-izquierda'>
+        <div className='main-enlaces-fotos main-logo main-enlaces-circulares' onClick={handleFotosClick} />
+        <div className='main-enlaces-pediatra main-logo main-enlaces-circulares' onClick={handlePediatraClick} />
+        <div className='main-enlaces-noticias main-logo main-enlaces-circulares' onClick={handleNoticiasClick} />
+      </div>
 
-                    {/* Contenedor izquierdo de los circulos fotos, pediatra y noticias */}
-                    <div className='main-enlaces-izquierda'>
-                        <div className='main-enlaces-fotos main-logo main-enlaces-circulares' onClick={handleFotosClick} />
-                        <div className='main-enlaces-pediatra main-logo main-enlaces-circulares' onClick={handlePediatraClick} />
-                        <div className='main-enlaces-noticias main-logo main-enlaces-circulares' onClick={handleNoticiasClick} />
-                    </div>
+      <div
+        className={`main-imagenes-centro ${fadeIn ? 'fade-in' : 'fade-out'}`}
+        style={{ backgroundImage: `url(${images[currentIndex]})` }}
+      />
 
-              
-                     {/* Contenedor de las fotos cambiantes*/}
-                    <div
-                      className={`main-imagenes-centro ${fadeIn ? 'fade-in' : 'fade-out'}`}
-                      style={{ backgroundImage: `url(${images[currentIndex]})` }}
-                    />
-                    
-              
-                    {/* Contenedor derecho de los circulos decálogo, nutricionista y excursiones*/}
-                    <div className='main-enlaces-derecha'>
-                        <div className='main-enlaces-decalogo main-logo main-enlaces-circulares' onClick={handleDecalogoClick} />
-                        <div className='main-enlaces-nutricionista main-logo main-enlaces-circulares' onClick={handleNutricionistasClick} />
-                        <div className='main-enlaces-excursiones main-logo main-enlaces-circulares' onClick={handleExcursionesClick} />
-                    </div>
-              
-        </div>
-      </>
-  )
-}
-
-
+      <div className='main-enlaces-derecha'>
+        <div className='main-enlaces-decalogo main-logo main-enlaces-circulares' onClick={handleDecalogoClick} />
+        <div className='main-enlaces-nutricionista main-logo main-enlaces-circulares' onClick={handleNutricionistasClick} />
+        <div className='main-enlaces-excursiones main-logo main-enlaces-circulares' onClick={handleExcursionesClick} />
+      </div>
+    </div>
+  );
+};
 
 
