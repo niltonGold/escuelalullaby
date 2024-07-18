@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+@media (max-width: 480px) {
+
+    .contacto-container{
+        /* background-color: antiquewhite; */
+        width: 19rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        
+    }
+
+
+        .contacto-titulo{
+            font-size: 10px;
+            line-height: 11px;
+            font-family: Roboto;
+            font-weight: 500;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            color: #102c8a;
+            background-color: initial;
+            letter-spacing: normal;
+            text-shadow: none;
+            /* background-color: aliceblue; */
+            text-align: center;
+            
+        }
+
+
+        .contacto-parrafo{
+            font-size: 6px;
+            line-height: 10px;
+            font-family: Roboto;
+            font-weight: 500;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            color: #040000;
+            background-color: initial;
+            letter-spacing: normal;
+            text-shadow: none;
+            text-align: justify;
+            /* background-color: aqua; */
+            text-align: center;
+        }
+
+
+        .contacto-telefono{
+            font-size: 8px;
+        }
+
+
+        .contacto-email{
+            color: #268bd2;
+            text-decoration: underline;
+        }
+
+
+        .contacto-mapa{
+           width: 15rem;
+           height: 8.5rem;
+           background-color: #268bd2;
+        }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+    .contacto-container {
+            /* background-color: antiquewhite; */
+            width: 23rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            align-items: center;
+    
+        }
+    
+    
+        .contacto-titulo {
+            font-size: 15px;
+            line-height: 18px;
+            font-family: Roboto;
+            font-weight: 500;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            color: #102c8a;
+            background-color: initial;
+            letter-spacing: normal;
+            text-shadow: none;
+            /* background-color: aliceblue; */
+            text-align: center;
+    
+        }
+    
+    
+        .contacto-parrafo {
+            font-size: 8px;
+            line-height: 10px;
+            font-family: Roboto;
+            font-weight: 500;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            color: #040000;
+            background-color: initial;
+            letter-spacing: normal;
+            text-shadow: none;
+            text-align: justify;
+            /* background-color: aqua; */
+            text-align: center;
+        }
+    
+    
+        .contacto-telefono {
+            font-size: 10px;
+        }
+    
+    
+        .contacto-email {
+            color: #268bd2;
+            text-decoration: underline;
+        }
+    
+    
+        .contacto-mapa {
+            width: 23rem;
+            height: 13rem;
+            background-color: #268bd2;
+        }
+
+}
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+
+.contacto-container {
+        /* background-color: antiquewhite; */
+        width: 35rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+
+    }
+
+
+    .contacto-titulo {
+        font-size: 25px;
+        line-height: 29px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        color: #102c8a;
+        background-color: initial;
+        letter-spacing: normal;
+        text-shadow: none;
+        /* background-color: aliceblue; */
+        text-align: center;
+
+    }
+
+
+    .contacto-parrafo {
+        font-size: 12px;
+        line-height: 18px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        color: #040000;
+        background-color: initial;
+        letter-spacing: normal;
+        text-shadow: none;
+        text-align: justify;
+        /* background-color: aqua; */
+        text-align: center;
+    }
+
+
+    .contacto-telefono {
+        font-size: 14px;
+    }
+
+
+    .contacto-email {
+        color: #268bd2;
+        text-decoration: underline;
+    }
+
+
+    .contacto-mapa {
+        width: 36rem;
+        height: 21rem;
+        background-color: #268bd2;
+    }
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+.contacto-container {
+        /* background-color: antiquewhite; */
+        width: 49rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+
+    }
+
+
+    .contacto-titulo {
+        font-size: 32px;
+        line-height: 38px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        color: #102c8a;
+        background-color: initial;
+        letter-spacing: normal;
+        text-shadow: none;
+        /* background-color: aliceblue; */
+        text-align: center;
+
+    }
+
+
+    .contacto-parrafo {
+        font-size: 15px;
+        line-height: 23px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        color: #040000;
+        background-color: initial;
+        letter-spacing: normal;
+        text-shadow: none;
+        text-align: justify;
+        /* background-color: aqua; */
+        text-align: center;
+    }
+
+
+    .contacto-telefono {
+        font-size: 20px;
+    }
+
+
+    .contacto-email {
+        color: #268bd2;
+        text-decoration: underline;
+    }
+
+
+    .contacto-mapa {
+        width: 45rem;
+        height: 26rem;
+        background-color: #268bd2;
+    }
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+.contacto-container {
+        /* background-color: antiquewhite; */
+        width: 58rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+
+    }
+
+
+    .contacto-titulo {
+        font-size: 40px;
+        line-height: 47px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        color: #102c8a;
+        background-color: initial;
+        letter-spacing: normal;
+        text-shadow: none;
+        /* background-color: aliceblue; */
+        text-align: center;
+
+    }
+
+
+    .contacto-parrafo {
+        font-size: 18px;
+        line-height: 28px;
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        color: #040000;
+        background-color: initial;
+        letter-spacing: normal;
+        text-shadow: none;
+        text-align: justify;
+        /* background-color: aqua; */
+        text-align: center;
+    }
+
+
+    .contacto-telefono {
+        font-size: 22px;
+    }
+
+
+    .contacto-email {
+        color: #268bd2;
+        text-decoration: underline;
+    }
+
+
+    .contacto-mapa {
+        width: 56rem;
+        height: 32rem;
+        background-color: #268bd2;
+    }
+    
+}
