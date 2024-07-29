@@ -1,0 +1,81 @@
+
+
+.quienessomos-imagnes-container {
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.quienessomos-imagenes {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: opacity 2s ease-in-out;
+}
+
+
+
+
+@media (max-width: 480px) {
+
+
+        .quienessomos-imagenes {
+            width: 230px;
+            height: 140px;
+        }
+
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+
+        .quienessomos-imagenes {
+            width: 320px;
+            height: 190px;
+        }
+
+
+}
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+        
+    
+        .quienessomos-imagenes {
+            width: 520px;
+            height: 300px;
+        }
+
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+
+        .quienessomos-imagenes {
+            width: 670px;
+            height: 370px;
+        }
+
+
+}
+
+
+
+@media (min-width: 1201px) {
+        
+
+        .quienessomos-imagenes {
+            width: 840px;
+            height: 470px;
+        }
+
+
+}

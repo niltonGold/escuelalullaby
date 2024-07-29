@@ -1,0 +1,83 @@
+/* ****************** */
+/* Estilos constantes */
+/* ****************** */
+
+.instalaciones-imagenes-container{
+    /* background-color: rgb(166, 155, 140); */
+    display: flex;
+    justify-content: center;
+}
+
+
+.instalaciones-imagenes {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: opacity 2s ease-in-out;
+}
+
+
+
+
+/* ********** */
+/* RESPONSIVE */
+/* ********** */
+
+@media (max-width: 480px) {
+
+
+            .instalaciones-imagenes {
+                width: 250px;
+                height: 150px;
+            }
+
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+
+            .instalaciones-imagenes {
+                width: 320px;
+                height: 230px;
+            }
+
+
+}
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+    
+    
+            .instalaciones-imagenes {
+                width: 470px;
+                height: 340px;
+            }
+
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+    
+            .instalaciones-imagenes {
+                width: 690px;
+                height: 450px;
+            }
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+            .instalaciones-imagenes {
+                width: 790px;
+                height: 550px;
+            }
+
+}

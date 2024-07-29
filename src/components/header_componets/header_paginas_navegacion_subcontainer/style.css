@@ -1,63 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
 
 
+
+/* ****************** */
+/* Estilos constantes */
+/* ****************** */
+
+   .header-paginas-navegacion-subcontainer {
+       display: flex;
+       flex-direction: row;
+       position: relative;
+       padding-right: 0.3rem;
+       justify-content: space-between;
+       /* background-color: rgba(149, 246, 160, 0.4); */
+   }
+
+
+   .header-navegacion-link-container {
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       align-self: center;
+       align-items: center;
+       /* background-color: rgba(244, 254, 133, 0.4); */
+   }
+
+
+   .header-pointer {
+       cursor: pointer;
+   }
+
+
+   .header-navegacion-incio-logo {
+       background-image: url('../../../images/header/inicio_logo.png');
+       background-size: cover;
+       /* background-color: antiquewhite; */
+   }
+
+
+   .header-navegacion-texto {
+       text-align: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-weight: 900;
+       letter-spacing: normal;
+       color: #52646f;
+       background-color: transparent;
+       font-family: 'Nunito';
+       -webkit-font-smoothing: antialiased;
+       -webkit-text-size-adjust: 100%;
+   }
+
+
+   .header-logo-hide {
+       visibility: hidden;
+   }
+
+
+   .instalaciones-dropdown {
+       position: absolute;
+       background-color: white;
+       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+       z-index: 1;
+       opacity: 0;
+       visibility: hidden;
+       transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+   }
+
+
+   .instalaciones-dropdown.visible {
+       opacity: 1;
+       visibility: visible;
+   }
+
+
+   .instalaciones-dropdown div {
+       margin: 2px;
+       cursor: pointer;
+       background-color: #ddedf7;
+   }
+
+
+   .instalaciones-dropdown div:hover {
+       background-color: #cedee8;
+       color: #102c8a;
+   }
+
+
+   .header-navegacion-instalaciones-texto {
+       text-align: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-weight: 900;
+       letter-spacing: normal;
+       color: #268bd2;
+       background-color: transparent;
+       font-family: 'Nunito';
+       -webkit-font-smoothing: antialiased;
+       -webkit-text-size-adjust: 100%;
+   }
+
+
+
+   
+/* ********** */
+/* RESPONSIVE */
+/* ********** */
+
 @media (max-width: 480px) {
     
+
     .header-paginas-navegacion-subcontainer {
-        display: flex;
-        flex-direction: row;
-        position: relative;
-        justify-content: space-between;
         top: -26px;
-        padding-right: 0.3rem;
-        /* background-color: rgba(149, 246, 160, 0.4); */
         width: 15rem;
-    }
-
-
-    .header-navegacion-link-container {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        align-items: center;
-        /* background-color: rgba(244, 254, 133, 0.4); */
-    }
-
-
-    .header-pointer{
-        cursor: pointer;
-    }
-
-
-    .header-logo-hide {
-        visibility: hidden;
     }
 
 
     .header-navegacion-incio-logo {
         width: 14px;
         height: 13px;
-        background-image: url('../../../images/header/inicio_logo.png');
-        background-size: cover;
     }
 
 
     .header-navegacion-texto {
         font-size: 7.5px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 900;
-        letter-spacing: normal;
-        color: #52646f;
         border-radius: 9px;
-        background-color: transparent;
-        font-family: 'Nunito';
-        -webkit-font-smoothing: antialiased;
-        -webkit-text-size-adjust: 100%;
     }
+
+
+    .instalaciones-dropdown {
+        top: 1.6rem;    
+        left: -1.1rem;
+    }
+
+
+    .instalaciones-dropdown div {
+        width: 4.9rem;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+
+    .header-navegacion-instalaciones-texto {
+        font-size: 7.5px;
+    }
+
 
 }
 
@@ -66,60 +155,39 @@
 
 
     .header-paginas-navegacion-subcontainer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-       
-        position: relative;
         top: -35px;
-        /* padding-right: 0.3rem; */
-        /* background-color: rgba(149, 246, 160, 0.4); */
         width: 20.1rem;
     }
     
-    
-    .header-navegacion-link-container {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        align-items: center;
-        /* background-color: rgba(244, 254, 133, 0.4); */
-    }
-
-
-    .header-pointer {
-        cursor: pointer;
-    }
-
-
-    .header-logo-hide {
-        visibility: hidden;
-    }
-
 
     .header-navegacion-incio-logo {
         width: 16px;
         height: 15px;
-        background-image: url('../../../images/header/inicio_logo.png');
-        background-size: cover;
     }
 
 
     .header-navegacion-texto {
         font-size: 8px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 900;
-        letter-spacing: normal;
-        color: #52646f;
         border-radius: 9px;
-        background-color: transparent;
-        font-family: 'Nunito';
-        -webkit-font-smoothing: antialiased;
-        -webkit-text-size-adjust: 100%;
+    }
+
+
+    .instalaciones-dropdown {
+        top: 1.8rem;
+        left: -1.2rem;
+    }
+
+
+
+    .instalaciones-dropdown div {
+        width: 5.2rem;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+
+    .header-navegacion-instalaciones-texto {
+        font-size: 8px;
     }
 
 
@@ -130,123 +198,84 @@
 
 @media (min-width: 781px) and (max-width: 980px) {
 
-        .header-paginas-navegacion-subcontainer {
-            display: flex;
-            flex-direction: row;
-            position: relative;
-            top: -55px;
-            padding-right: 0.3rem;
-            /* background-color: rgba(149, 246, 160, 0.4); */
-            width: 33rem;
-            justify-content: space-between;
-        }
-    
-    
-        .header-navegacion-link-container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-self: center;
-            align-items: center;
-            /* background-color: rgba(244, 254, 133, 0.4); */
-        }
-    
-        .header-pointer {
-            cursor: pointer;
-        }
+    .header-paginas-navegacion-subcontainer {
+        top: -55px;
+        width: 33rem;
+    }
     
 
-        .header-logo-hide {
-            visibility: hidden;
-        }
-    
+    .header-navegacion-incio-logo {
+        width: 35px;
+        height: 30px;
+    }
 
-        .header-navegacion-incio-logo {
-            width: 35px;
-            height: 30px;
-            background-image: url('../../../images/header/inicio_logo.png');
-            background-size: cover;
-            /* background-color: antiquewhite; */
-        }
 
-    
-        .header-navegacion-texto {
-            font-size: 13px;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 900;
-            letter-spacing: normal;
-            color: #52646f;
-            border-radius: 9px;
-            background-color: transparent;
-            font-family: 'Nunito';
-            -webkit-font-smoothing: antialiased;
-            -webkit-text-size-adjust: 100%;
-        }
+    .header-navegacion-texto {
+        font-size: 13px;
+        border-radius: 9px;
+    }
+
+
+    .instalaciones-dropdown {
+        top: 3.4rem;
+        left: -1.8rem;
+    }
+
+
+    .instalaciones-dropdown div {
+        width: 8.5rem;
+        padding-top: 2px;
+        padding-bottom: 2px;           
+    }
+
+
+    .header-navegacion-instalaciones-texto {
+        font-size: 13px;
+    }
+
+
 }
 
 
 
 @media (min-width: 981px) and (max-width: 1200px) {
 
+
     .header-paginas-navegacion-subcontainer {
-        display: flex;
-        flex-direction: row;
-        position: relative;
         top: -52px;
-        padding-right: 0.3rem;
-        /* background-color: rgba(149, 246, 160, 0.4); */
         width: 44rem;
-        justify-content: space-between;
-    }
-
-
-    .header-navegacion-link-container {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        align-items: center;
-        /* background-color: rgba(244, 254, 133, 0.4); */
-    }
-
-
-    .header-pointer {
-        cursor: pointer;
-    }
-
-
-    .header-logo-hide {
-        visibility: hidden;
     }
 
 
     .header-navegacion-incio-logo {
         width: 35px;
         height: 30px;
-        background-image: url('../../../images/header/inicio_logo.png');
-        background-size: cover;
-        /* background-color: antiquewhite; */
     }
 
-
+ 
     .header-navegacion-texto {
         font-size: 18px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 900;
-        letter-spacing: normal;
-        color: #52646f;
         border-radius: 9px;
-        background-color: transparent;
-        font-family: 'Nunito';
-        -webkit-font-smoothing: antialiased;
-        -webkit-text-size-adjust: 100%;
     }
+
+
+    .instalaciones-dropdown {
+        top: 3.6rem;
+        left: -2.7rem;
+    }
+
+
+    .instalaciones-dropdown div {
+        width: 12.5rem;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+
+    .header-navegacion-instalaciones-texto {
+        font-size: 18px;
+    }
+
 
 }
 
@@ -257,60 +286,38 @@
 
 
     .header-paginas-navegacion-subcontainer {
-        display: flex;
-        flex-direction: row;
-        position: relative;
         top: -52px;
-        padding-right: 0.3rem;
-        /* background-color: rgba(149, 246, 160, 0.4); */
         width: 52.5rem;
-        justify-content: space-between;
-    }
-
-
-    .header-navegacion-link-container {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        align-items: center;
-        /* background-color: rgba(244, 254, 133, 0.4); */
-    }
-
-
-    .header-pointer {
-        cursor: pointer;
-    }
-
-
-    .header-logo-hide {
-        visibility: hidden;
     }
 
 
     .header-navegacion-incio-logo {
         width: 35px;
         height: 30px;
-        background-image: url('../../../images/header/inicio_logo.png');
-        background-size: cover;
-        /* background-color: antiquewhite; */
     }
 
 
     .header-navegacion-texto {
         font-size: 21px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: 900;
-        letter-spacing: normal;
-        color: #52646f;
         border-radius: 9px;
-        background-color: transparent;
-        font-family: 'Nunito';
-        -webkit-font-smoothing: antialiased;
-        -webkit-text-size-adjust: 100%;   
+    }
+
+
+    .instalaciones-dropdown {
+        top: 4rem;
+        left: -3rem;
+    }
+
+
+    .instalaciones-dropdown div {
+        width: 14rem;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+
+    .header-navegacion-instalaciones-texto {
+        font-size: 21px;
     }
 
 

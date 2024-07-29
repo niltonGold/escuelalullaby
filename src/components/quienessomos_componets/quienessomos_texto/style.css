@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+/* ****************** */
+/* Estilos constantes */
+/* ****************** */
+
+.quienessomos-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.quienessomos-parrafo {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: #040000;
+    background-color: initial;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-align: justify;
+}
+
+
+.quienessomos-parrafo-con-puntos-container {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aliceblue; */
+}
+
+
+.quienessomos-punto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* background-color: rgb(53, 240, 240); */
+}
+
+
+.quienessomos-punto-parrafo {
+    /* background-color: rgb(13, 178, 123); */
+}
+
+
+
+
+/* ********** */
+/* RESPONSIVE */
+/* ********** */
+
+@media (max-width: 480px) {
+
+
+        .quienessomos-texto{
+            gap: 1rem;
+        }
+
+
+        .quienessomos-parrafo {
+            font-size: 6px;
+            line-height: 10px;
+        }
+
+
+        .quienessomos-punto {
+            width: 1rem;
+            font-size: 13.5px;
+            height: 4.5px;
+        }
+
+
+        .quienessomos-punto-parrafo {
+            width: 18rem;
+        }
+
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+
+        .quienessomos-texto {
+            gap: 1rem;
+        }
+
+
+        .quienessomos-parrafo {
+            font-size: 8px;
+            line-height: 10px;
+        }
+
+
+        .quienessomos-punto {
+            width: 2rem;
+            font-size: 17px;
+            height: 2.5px;
+        }
+
+
+        .quienessomos-punto-parrafo {
+            width: 21rem;
+        }
+
+
+}
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+
+
+        .quienessomos-texto {
+            gap: 1.5rem;
+        }
+
+
+        .quienessomos-parrafo {
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+
+        .quienessomos-punto {
+            width: 3rem;
+            font-size: 25px;
+            height: 8px;
+        }
+
+
+        .quienessomos-punto-parrafo {
+            width: 32rem;
+        }
+
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+
+        .quienessomos-texto {
+            gap: 2rem;
+        }
+
+
+        .quienessomos-parrafo {
+            font-size: 16px;
+            line-height: 23px;
+        }
+
+
+        .quienessomos-punto {
+            width: 4rem;
+            font-size: 30px;
+            height: 10px;
+        }
+
+
+        .quienessomos-punto-parrafo {
+            width: 45rem;
+        }
+
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+
+        .quienessomos-texto {
+            gap: 2rem;
+        }
+
+
+        .quienessomos-parrafo {
+            font-size: 19px;
+            line-height: 25px;
+        }
+
+
+        .quienessomos-punto {
+            width: 3.5rem;
+            font-size: 39px;
+            height: 6px;
+        }
+
+
+        .quienessomos-punto-parrafo {
+            width: 54.5rem;
+        }
+
+
+}

@@ -1,8 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
+/* ****************** */
+/* Estilos constantes */
+/* ****************** */
+
+.quienessomos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    /* background-color: antiquewhite; */
+}
+
+
+
+
+/* ********** */
+/* RESPONSIVE */
+/* ********** */
 
 @media (max-width: 480px) {
 
+
+        .quienessomos-container {
+            width: 19rem;
+        }
 
 
 }
@@ -11,7 +33,9 @@
 
 @media (min-width: 481px) and (max-width: 780px) {
 
-
+        .quienessomos-container {
+            width: 23rem;
+        }
 
 }
 
@@ -19,6 +43,10 @@
 
 @media (min-width: 781px) and (max-width: 980px) {
 
+
+        .quienessomos-container {
+            width: 35rem;
+        }
 
 
 }
@@ -28,6 +56,10 @@
 @media (min-width: 981px) and (max-width: 1200px) {
 
 
+        .quienessomos-container {
+            width: 49rem;
+        }
+
 
 }
 
@@ -36,5 +68,9 @@
 @media (min-width: 1201px) {
 
 
+        .quienessomos-container {
+            width: 58rem;
+        }
     
+
 }

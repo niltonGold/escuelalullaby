@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+/* ****************** */
+/* Estilos constantes */
+/* ****************** */
+
+.instalaciones-texto-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+}
+
+.instalaciones-texto {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(133, 174, 210); */
+}
+
+.instalaciones-parrafo {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: #040000;
+    background-color: initial;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-align: justify;
+}
+
+
+
+
+/* ********** */
+/* RESPONSIVE */
+/* ********** */
+
+@media (max-width: 480px) {
+
+
+            .instalaciones-texto-container {
+                gap: 1rem;
+                width: 19rem;
+            }
+
+            .instalaciones-texto {
+                gap: 1rem;
+            }
+
+            .instalaciones-parrafo {
+                font-size: 6px;
+                line-height: 10px;
+
+            }
+
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+
+            .instalaciones-texto-container {
+                gap: 1rem;
+                width: 23rem;
+            }
+
+            .instalaciones-texto{
+                gap: 1rem;
+            }
+
+            .instalaciones-parrafo{
+                font-size: 8px;
+                line-height: 10px;
+            }
+
+
+}
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+    
+
+            .instalaciones-texto-container {
+                gap: 1rem;
+                width: 35rem;
+            }
+
+            .instalaciones-texto {
+                gap: 2rem;
+            }
+            
+            .instalaciones-parrafo {
+                font-size: 12px;
+                line-height: 20px;
+            }
+
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+
+            .instalaciones-texto-container {
+                gap: 2rem;
+                width: 49rem;
+            }
+
+            .instalaciones-texto {
+                gap: 2.5rem;
+            }
+
+            .instalaciones-parrafo {
+                font-size: 16px;
+                line-height: 23px;
+            }
+
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+
+            .instalaciones-texto-container {
+                gap: 2rem;
+                width: 58rem;
+            }
+
+            
+            .instalaciones-texto {
+                gap: 3rem;
+            }
+
+            .instalaciones-parrafo {
+                font-size: 19px;
+                line-height: 25px;
+            }
+
+
+}
