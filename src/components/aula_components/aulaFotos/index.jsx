@@ -38,8 +38,10 @@ export const AulaFotos = () => {
                         <div className='aulafotos-imagen-container'>
                               <div className='aulafotos-imagen-aventureros aulafotos-imagen' />
                         </div>
-            
-                        <div className='aulafotos-info'>+ Info.</div>
+
+                        {/* <div className='aulafotos-info-container'> */}
+                                <div className='aulafotos-info'>+ Info.</div>
+                        {/* </div> */}
                     
                 </div>
         </div>
@@ -59,7 +61,7 @@ export const AulaFotos = () => {
                               <div className='aulafotos-imagen-descubridores aulafotos-imagen' />
                         </div>
                       
-                        <div className='aulafotos-info'>+ Info.</div>
+                        <div className='aulafotos-info aulafotos-info-descubridores'>+ Info.</div>
           
                 </div>
          

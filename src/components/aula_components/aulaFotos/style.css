@@ -6,7 +6,6 @@
 .AulaFotos-container{
     display: flex;
     flex-direction: column;
-    height: 40rem;
     /* background-color: #cb4b16; */
 }
 
@@ -15,7 +14,7 @@
         .aulafotos-subcontainer{
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-between; 
         }
 
 
@@ -30,6 +29,8 @@
                 .aulafotos-titulo-imagen-info-container{
                     display: flex;
                     flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
                 }
 
                         /* Contenedor de titulo Explorador, Aventureros, Descubridores, Darwin + Años (0-1 año), (1-2 años), (2-3 años), (Psicomotricidad) */
@@ -112,14 +113,25 @@
                         }
 
 
-                        .aulafotos-info{
-                            z-index: 2;
-                            color: #cb4b16;
-                            position: relative;
-                            text-align: center;
-                            /* background-color: aqua; */
-                        }
-
+                                .aulafotos-info{
+                                    z-index: 2;
+                                    color: #cb4b16;
+                                    position: relative;
+                                    text-align: center;
+                                    width: 2rem;
+                                    height: 1rem;
+                                    border-radius: 5px;
+                                    display: flex;
+                                    align-items: center;
+                                    align-self: center;
+                                    justify-content: center;
+                                    /* background-color: rgb(21, 145, 145); */
+                                }
+                                            .aulafotos-info:hover {
+                                                background-color: rgb(205, 222, 232);
+                                                cursor: pointer;
+                                                color: rgb(38, 139, 212);
+                                            }
 
                         .aulafotos-titulo-edad{
                             z-index: 2;
@@ -133,12 +145,10 @@
 @media (max-width: 480px) {
 
 
-        /* Contenedor principal */
         .AulaFotos-container {
-            /* gap: 1rem; */
+            
         }
 
-        /* Contenedor de titulo Explorador, Aventureros, Descubridores, Darwin + Años (0-1 año), (1-2 años), (2-3 años), (Psicomotricidad) */
         .aulafotos-titulo-container {
             top: 1.5rem;
             display: flex;
@@ -167,7 +177,6 @@
             height: 26px;
         }
 
-        /* Contenedor de la imagen de la nube */
         .aulafotos-nube {
             width: 120px;
             height: 65px;
@@ -181,8 +190,16 @@
         }
 
         .aulafotos-info {
-            top: -2.2rem;
+            top: -2.5rem;
             font-size: 6px;
+        }
+
+        .aulafotos-info:hover {
+            border-radius: 10px;
+        }
+
+        .aulafotos-info-descubridores{
+            top: -37px;
         }
 
         .aulafotos-titulo-edad {
