@@ -81,6 +81,13 @@ import { Noticias } from './pages/main_Pages/noticias';
 import { Decalogo } from './pages/main_Pages/decalogo';
 import { Nutricionista } from './pages/main_Pages/nutricionista';
 import { Excursiones } from './pages/main_Pages/excursiones';
+import { Aulas } from './pages/instalaciones_Pages/aulas';
+import { HallyDespacho } from './pages/instalaciones_Pages/hallydespacho';
+import { Comedor } from './pages/instalaciones_Pages/comedor';
+import { CocinaYlavanderia } from './pages/instalaciones_Pages/cocinaylavanderia';
+import { HuertoeInvernadero } from './pages/instalaciones_Pages/huerto_e_invernadero';
+import { SalonDeActos } from './pages/instalaciones_Pages/salon_de_actos';
+import { Patios } from './pages/instalaciones_Pages/patios';
 
 function App() {
   return (
@@ -104,6 +111,14 @@ function App() {
             <Route path="/decalogo" element={<Decalogo />} />
             <Route path="/nutricionista" element={<Nutricionista />} />
             <Route path="/excursiones" element={<Excursiones />} />
+            <Route path="/aulas" element={ <Aulas/> } />
+            <Route path="/hallydespacho" element={ <HallyDespacho/> } />
+            <Route path="/comedor" element={ <Comedor/> } />
+            <Route path="/cocinaylavanderia" element={ <CocinaYlavanderia/> } />
+            <Route path="/patios" element={ <Patios/> } />
+            <Route path="/huertoeinvernadero" element={ <HuertoeInvernadero/> } />
+            <Route path="/salondeactos" element={ <SalonDeActos/> } />
+            
           </Routes>
         </div>
         <Footer />

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.HallyDespacho-container {
+    background-color: antiquewhite;
+}
+
+@media (max-width: 480px) {
+
+    .HallyDespacho-container {
+        width: 19rem;
+    }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+    .HallyDespacho-container {
+        width: 27rem;
+    }
+
+}
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+
+    .HallyDespacho-container {
+        width: 43rem;
+    }
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+    .HallyDespacho-container{
+        width: 58rem;
+    }
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+    .HallyDespacho-container {
+        width: 69rem;
+    }
+
+}

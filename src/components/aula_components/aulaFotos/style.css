@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+
+/* Contenedor principal */
+.AulaFotos-container{
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    /* background-color: #cb4b16; */
+}
+
+
+        /* Contenedor de Exploradores, Aventureros y de Descubridores y Darwin */
+        .aulafotos-subcontainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+
+                /* 
+                Contenedor de 
+                    - titulos: Exploradores, Aventureros, Descubridores, Darwin
+                    - Años: (0-1 año), (1-2 años), (2-3 años), (Psicomotricidad)
+                    - imagen de la nube
+                    - imagen representativa
+                    - +info
+                */
+                .aulafotos-titulo-imagen-info-container{
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                        /* Contenedor de titulo Explorador, Aventureros, Descubridores, Darwin + Años (0-1 año), (1-2 años), (2-3 años), (Psicomotricidad) */
+                        .aulafotos-titulo-container{
+                            display: flex;
+                            flex-direction: column;
+                            position: relative;
+                            z-index: 2;
+                            /* background-color: aqua; */
+                        }
+
+
+                                .aulafotos-titulo-exploradores{
+                                    background-image: url('../../../images/aulas/exploradores_titulo.png');
+                                }
+                                .aulafotos-titulo-aventureros{
+                                    background-image: url('../../../images/aulas/aventureros_titulo.png');
+                                }
+                                .aulafotos-titulo-descubridores{
+                                    background-image: url('../../../images/aulas/descubridores_titulo.png');
+                                }
+                                .aulafotos-titulo-darwin{
+                                    background-image: url('../../../images/aulas/darwin_titulo.png');
+                                }
+                                .aulafotos-titulo{
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: 100% 100%;
+                                }
+
+
+                        /* Contenedor de la imagen de la nube */
+                        .aulafotos-nube{
+                            z-index: 1;
+                            position: relative;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: 100% 100%;
+                            background-image: url('../../../images/aulas/aulas_nube.png');
+                        }
+
+
+                        .aulafotos-imagen-exploradores{
+                            background-image: url('../../../images/aulas/exploradores_imagen.png');
+                        }
+                        .aulafotos-imagen-aventureros{
+                            background-image: url('../../../images/aulas/aventureros_imagen.png');
+                        }
+                        .aulafotos-imagen-descubridores{
+                            background-image: url('../../../images/aulas/descubridores_imagen.png');
+                        }
+                        .aulafotos-imagen-darwin{
+                            background-image: url('../../../images/aulas/darwin_imagen.png');
+                        }
+
+                        .aulafotos-imagen-container{
+                            display: flex;
+                            justify-content: center;
+                            width: 100%;
+                            /* background-color: rgb(67, 173, 127); */
+                        }
+                                .aulafotos-imagen{
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: 100% 100%;
+                                    position: relative;
+                                    z-index: 2;
+                                }
+
+
+                        .aulafotos-info .aulafotos-titulo-edad{
+                            font-family: Roboto;
+                            font-weight: 500;
+                            font-style: normal;
+                            text-decoration: none;
+                            text-transform: none;
+                            background-color: initial;
+                            letter-spacing: normal;
+                            text-shadow: none;
+                        }
+
+
+                        .aulafotos-info{
+                            z-index: 2;
+                            color: #cb4b16;
+                            position: relative;
+                            text-align: center;
+                            /* background-color: aqua; */
+                        }
+
+
+                        .aulafotos-titulo-edad{
+                            z-index: 2;
+                            color: #000000;
+                            position: relative;
+                            /* background-color: #5a3d30; */
+                        }
+
+
+
+@media (max-width: 480px) {
+
+
+        /* Contenedor principal */
+        .AulaFotos-container {
+            /* gap: 1rem; */
+        }
+
+        /* Contenedor de titulo Explorador, Aventureros, Descubridores, Darwin + Años (0-1 año), (1-2 años), (2-3 años), (Psicomotricidad) */
+        .aulafotos-titulo-container {
+            top: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .aulafotos-titulo-exploradores {
+            width: 91px;
+            height: 24px;
+        }
+
+        .aulafotos-titulo-aventureros {
+            width: 77px;
+            height: 22px;
+        }
+
+        .aulafotos-titulo-descubridores {
+            width: 83px;
+            height: 21px;
+        }
+
+        .aulafotos-titulo-darwin {
+            width: 59px;
+            height: 26px;
+        }
+
+        /* Contenedor de la imagen de la nube */
+        .aulafotos-nube {
+            width: 120px;
+            height: 65px;
+            top: -1rem;
+        }
+
+        .aulafotos-imagen {
+            width: 97px;
+            height: 90px;
+            top: -2.5rem;
+        }
+
+        .aulafotos-info {
+            top: -2.2rem;
+            font-size: 6px;
+        }
+
+        .aulafotos-titulo-edad {
+            top: -0.3rem;
+            font-size: 6px;
+        }
+
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+
+
+}
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+
+
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+
+    
+}

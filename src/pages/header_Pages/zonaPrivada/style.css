@@ -1,12 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
+.zonaprivada-container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.zonaprivada-parrafo {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: #040000;
+    background-color: initial;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-align: justify;
+}
+
+.zonaprivada-texto-agenda-electronica {
+    color: #102c8a;
+}
+
+
 @media (max-width: 480px) {
 
+
     .zonaprivada-container{
-        /* background-color: antiquewhite; */
-        display: flex;
-        flex-direction: column;
         gap: 1rem;
         width: 19rem;
     }
@@ -14,22 +36,12 @@
     .zonaprivada-parrafo{
         font-size: 6px;
         line-height: 10px;
-        font-family: Roboto;
-        font-weight: 500;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: none;
-        color: #040000;
-        background-color: initial;
-        letter-spacing: normal;
-        text-shadow: none;
-        text-align: justify;
     }
 
     .zonaprivada-texto-agenda-electronica{
         font-size: 8px;
-        color: #102c8a;
     }
+
 
 }
 
@@ -37,33 +49,21 @@
 
 @media (min-width: 481px) and (max-width: 780px) {
 
+
     .zonaprivada-container {
-        /* background-color: antiquewhite; */
-        display: flex;
-        flex-direction: column;
         gap: 1rem;
-        width: 23rem;
+        width: 27rem;
     }
 
     .zonaprivada-parrafo {
         font-size: 8px;
         line-height: 10px;
-        font-family: Roboto;
-        font-weight: 500;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: none;
-        color: #040000;
-        background-color: initial;
-        letter-spacing: normal;
-        text-shadow: none;
-        text-align: justify;
     }
 
     .zonaprivada-texto-agenda-electronica {
         font-size: 10px;
-        color: #102c8a;
     }
+
 
 }
 
@@ -71,33 +71,21 @@
 
 @media (min-width: 781px) and (max-width: 980px) {
 
+
     .zonaprivada-container {
-        /* background-color: antiquewhite; */
-        display: flex;
-        flex-direction: column;
         gap: 1rem;
-        width: 35rem;
+        width: 43rem;
     }
 
     .zonaprivada-parrafo {
         font-size: 12px;
         line-height: 20px;
-        font-family: Roboto;
-        font-weight: 500;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: none;
-        color: #040000;
-        background-color: initial;
-        letter-spacing: normal;
-        text-shadow: none;
-        text-align: justify;
     }
 
     .zonaprivada-texto-agenda-electronica {
         font-size: 14px;
-        color: #102c8a;
     }
+
 
 }
 
@@ -105,33 +93,21 @@
 
 @media (min-width: 981px) and (max-width: 1200px) {
 
+
     .zonaprivada-container {
-        /* background-color: antiquewhite; */
-        display: flex;
-        flex-direction: column;
         gap: 2rem;
-        width: 49rem;
+        width: 58rem;
     }
 
     .zonaprivada-parrafo {
         font-size: 16px;
         line-height: 23px;
-        font-family: Roboto;
-        font-weight: 500;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: none;
-        color: #040000;
-        background-color: initial;
-        letter-spacing: normal;
-        text-shadow: none;
-        text-align: justify;
     }
 
     .zonaprivada-texto-agenda-electronica {
         font-size: 18px;
-        color: #102c8a;
     }
+
 
 }
 
@@ -139,32 +115,20 @@
 
 @media (min-width: 1201px) {
 
+
     .zonaprivada-container {
-        /* background-color: antiquewhite; */
-        display: flex;
-        flex-direction: column;
         gap: 2rem;
-        width: 58rem;
+        width: 69rem;
     }
 
     .zonaprivada-parrafo {
         font-size: 19px;
         line-height: 25px;
-        font-family: Roboto;
-        font-weight: 500;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: none;
-        color: #040000;
-        background-color: initial;
-        letter-spacing: normal;
-        text-shadow: none;
-        text-align: justify;
     }
 
     .zonaprivada-texto-agenda-electronica {
         font-size: 21px;
-        color: #102c8a;
     }
     
+
 }

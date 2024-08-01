@@ -1,84 +1,103 @@
+.main-container-1_fotos_enlaces {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+
+/* Contenedor izquierdo de los circulos fotos, pediatra y noticias */
+.main-enlaces-izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+        .main-enlaces-fotos {
+            background-image: url('../../../images/main/fotos.png');
+        }
+
+
+        .main-enlaces-pediatra {
+            background-image: url('../../../images/main/pediatra.png');
+        }
+
+
+        .main-enlaces-noticias {
+            background-image: url('../../../images/main/noticias.png');
+        }
+
+
+/* Contenedor de las fotos cambiantes*/
+.main-imagenes-centro {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: opacity 2s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+
+/* Contenedor derecho de los circulos decálogo, nutricionista y excursiones*/
+.main-enlaces-derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+        .main-enlaces-decalogo {
+            background-image: url('../../../images/main/decalogo.png');
+        }
+
+
+        .main-enlaces-nutricionista {
+            background-image: url('../../../images/main/nutricionista.png');
+        }
+
+
+        .main-enlaces-excursiones {
+            background-image: url('../../../images/main/excursiones.png');
+        }
+
+
+.main-enlaces-circulares {
+    cursor: pointer;
+}
+
+/* Tamaño de los logos, fotos, pediatra, noticias, decálogo, nutricionista, excursiones */
+.main-logo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
 
 @media (max-width: 480px) {
 
 
     .main-container-1_fotos_enlaces {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         gap: 1rem;
     }
 
-
-            /* Contenedor izquierdo de los circulos fotos, pediatra y noticias */
-            .main-enlaces-izquierda {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-            }
-
-
-                    .main-enlaces-fotos {
-                        background-image: url('../../../images/main/fotos.png');
-                    }
-
-
-                    .main-enlaces-pediatra {
-                        background-image: url('../../../images/main/pediatra.png');
-                    }
-
-
-                    .main-enlaces-noticias {
-                        background-image: url('../../../images/main/noticias.png');
-                    }
-
-
-            /* Contenedor de las fotos cambiantes*/
-            .main-imagenes-centro {
-                width: 200px;
-                height: 130px;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: 100% 100%;
-                transition: opacity 2s ease-in-out;
-                /* Duración de la transición */
-            }
-        
-
-
-            /* Contenedor derecho de los circulos decálogo, nutricionista y excursiones*/
-            .main-enlaces-derecha {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-            }
-
-
-                    .main-enlaces-decalogo {
-                        background-image: url('../../../images/main/decalogo.png');
-                    }
-
-
-                    .main-enlaces-nutricionista {
-                        background-image: url('../../../images/main/nutricionista.png');
-                    }
-
-
-                    .main-enlaces-excursiones {
-                        background-image: url('../../../images/main/excursiones.png');
-                    }
-
-                    .main-enlaces-circulares{
-                        cursor: pointer;
-                    }
+    /* Contenedor de las fotos cambiantes*/
+    .main-imagenes-centro {
+        width: 200px;
+        height: 130px;
+    }
 
     /* Tamaño de los logos, fotos, pediatra, noticias, decálogo, nutricionista, excursiones */
     .main-logo {
         width: 35px;
         height: 35px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100% 100%;
     }
 
 
@@ -89,83 +108,19 @@
 
 
     .main-container-1_fotos_enlaces {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         gap: 1rem;
     }
 
-
-    /* Contenedor izquierdo de los circulos fotos, pediatra y noticias */
-    .main-enlaces-izquierda {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-
-    .main-enlaces-fotos {
-        background-image: url('../../../images/main/fotos.png');
-    }
-
-
-    .main-enlaces-pediatra {
-        background-image: url('../../../images/main/pediatra.png');
-    }
-
-
-    .main-enlaces-noticias {
-        background-image: url('../../../images/main/noticias.png');
-    }
-
-
     /* Contenedor de las fotos cambiantes*/
     .main-imagenes-centro {
-        width: 300px;
+        width: 290px;
         height: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100% 100%;
-        transition: opacity 2s ease-in-out;
-        /* Duración de la transición */
     }
-
-
-    /* Contenedor derecho de los circulos decálogo, nutricionista y excursiones*/
-    .main-enlaces-derecha {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-
-    .main-enlaces-decalogo {
-        background-image: url('../../../images/main/decalogo.png');
-    }
-
-
-    .main-enlaces-nutricionista {
-        background-image: url('../../../images/main/nutricionista.png');
-    }
-
-
-    .main-enlaces-excursiones {
-        background-image: url('../../../images/main/excursiones.png');
-    }
-
-
-    .main-enlaces-circulares {
-        cursor: pointer;
-    }
-
 
     /* Tamaño de los logos, fotos, pediatra, noticias, decálogo, nutricionista, excursiones */
     .main-logo {
         width: 50px;
         height: 50px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100% 100%;
     }
 
 
@@ -176,254 +131,70 @@
 
 
 @media (min-width: 781px) and (max-width: 980px) {
+    
+    
     .main-container-1_fotos_enlaces {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 2rem;
-        }
-    
-    
-        /* Contenedor izquierdo de los circulos fotos, pediatra y noticias */
-        .main-enlaces-izquierda {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-    
-    
-        .main-enlaces-fotos {
-            background-image: url('../../../images/main/fotos.png');
-        }
-    
-    
-        .main-enlaces-pediatra {
-            background-image: url('../../../images/main/pediatra.png');
-        }
-    
-    
-        .main-enlaces-noticias {
-            background-image: url('../../../images/main/noticias.png');
-        }
-    
-    
-        /* Contenedor de las fotos cambiantes*/
-        .main-imagenes-centro {
-            width: 480px;
-            height: 320px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100% 100%;
-            transition: opacity 2s ease-in-out;
-            /* Duración de la transición */
-        }
-    
-    
-        /* Contenedor derecho de los circulos decálogo, nutricionista y excursiones*/
-        .main-enlaces-derecha {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-    
-    
-        .main-enlaces-decalogo {
-            background-image: url('../../../images/main/decalogo.png');
-        }
-    
-    
-        .main-enlaces-nutricionista {
-            background-image: url('../../../images/main/nutricionista.png');
-        }
-    
-    
-        .main-enlaces-excursiones {
-            background-image: url('../../../images/main/excursiones.png');
-        }
-    
-    
-        .main-enlaces-circulares {
-            cursor: pointer;
-        }
-    
-    
-        /* Tamaño de los logos, fotos, pediatra, noticias, decálogo, nutricionista, excursiones */
-        .main-logo {
-            width: 80px;
-            height: 80px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100% 100%;
-        }
+        gap: 2rem;
+    }
+
+    /* Contenedor de las fotos cambiantes*/
+    .main-imagenes-centro {
+        width: 460px;
+        height: 320px;
+    }
+
+    /* Tamaño de los logos, fotos, pediatra, noticias, decálogo, nutricionista, excursiones */
+    .main-logo {
+        width: 80px;
+        height: 80px;
+    }
         
+
 }
 
 
 
 @media (min-width: 981px) and (max-width: 1200px) {
     
+
     .main-container-1_fotos_enlaces {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 1rem;
-        }
+        gap: 1rem;
+    }
     
+    /* Contenedor de las fotos cambiantes*/
+    .main-imagenes-centro {
+        width: 650px;
+        height: 400px;
+    }
     
-        /* Contenedor izquierdo de los circulos fotos, pediatra y noticias */
-        .main-enlaces-izquierda {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-    
-    
-        .main-enlaces-fotos {
-            background-image: url('../../../images/main/fotos.png');
-        }
-    
-    
-        .main-enlaces-pediatra {
-            background-image: url('../../../images/main/pediatra.png');
-        }
-    
-    
-        .main-enlaces-noticias {
-            background-image: url('../../../images/main/noticias.png');
-        }
-    
-    
-        /* Contenedor de las fotos cambiantes*/
-        .main-imagenes-centro {
-            width: 600px;
-            height: 400px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100% 100%;
-            transition: opacity 2s ease-in-out;
-            /* Duración de la transición */
-        }
-    
-    
-        /* Contenedor derecho de los circulos decálogo, nutricionista y excursiones*/
-        .main-enlaces-derecha {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-    
-    
-        .main-enlaces-decalogo {
-            background-image: url('../../../images/main/decalogo.png');
-        }
-    
-    
-        .main-enlaces-nutricionista {
-            background-image: url('../../../images/main/nutricionista.png');
-        }
-    
-    
-        .main-enlaces-excursiones {
-            background-image: url('../../../images/main/excursiones.png');
-        }
-    
-    
-        .main-enlaces-circulares {
-            cursor: pointer;
-        }
-    
-    
-        /* Tamaño de los logos, fotos, pediatra, noticias, decálogo, nutricionista, excursiones */
-        .main-logo {
-            width: 100px;
-            height: 100px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100% 100%;
-        }
+    /* Tamaño de los logos, fotos, pediatra, noticias, decálogo, nutricionista, excursiones */
+    .main-logo {
+        width: 100px;
+        height: 100px;
+    }
+
 
 }
 
 
 @media (min-width: 1201px) {
+    
+    
     .main-container-1_fotos_enlaces {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 3.5rem;
-        }
+        gap: 3.5rem;  
+    }
     
-    
-        /* Contenedor izquierdo de los circulos fotos, pediatra y noticias */
-        .main-enlaces-izquierda {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-    
-    
-        .main-enlaces-fotos {
-            background-image: url('../../../images/main/fotos.png');
-        }
-    
-    
-        .main-enlaces-pediatra {
-            background-image: url('../../../images/main/pediatra.png');
-        }
-    
-    
-        .main-enlaces-noticias {
-            background-image: url('../../../images/main/noticias.png');
-        }
-    
-    
-        /* Contenedor de las fotos cambiantes*/
-        .main-imagenes-centro {
-            width: 770px;
-            height: 500px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100% 100%;
-            transition: opacity 2s ease-in-out;
-            /* Duración de la transición */
-        }
-    
-    
-        /* Contenedor derecho de los circulos decálogo, nutricionista y excursiones*/
-        .main-enlaces-derecha {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-    
-    
-        .main-enlaces-decalogo {
-            background-image: url('../../../images/main/decalogo.png');
-        }
-    
-    
-        .main-enlaces-nutricionista {
-            background-image: url('../../../images/main/nutricionista.png');
-        }
-    
-    
-        .main-enlaces-excursiones {
-            background-image: url('../../../images/main/excursiones.png');
-        }
-    
-    
-        .main-enlaces-circulares {
-            cursor: pointer;
-        }
-    
-    
-        /* Tamaño de los logos, fotos, pediatra, noticias, decálogo, nutricionista, excursiones */
-        .main-logo {
-            width: 124px;
-            height: 125px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100% 100%;
-        }
+    /* Contenedor de las fotos cambiantes*/
+    .main-imagenes-centro {
+        width: 750px;
+        height: 500px;
+    }
+
+    /* Tamaño de los logos, fotos, pediatra, noticias, decálogo, nutricionista, excursiones */
+    .main-logo {
+        width: 124px;
+        height: 125px;
+    }
+
 
 }

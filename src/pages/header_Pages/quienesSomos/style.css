@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
 }
 
 
@@ -34,7 +34,7 @@
 @media (min-width: 481px) and (max-width: 780px) {
 
         .quienessomos-container {
-            width: 23rem;
+            width: 27rem;
         }
 
 }
@@ -45,7 +45,7 @@
 
 
         .quienessomos-container {
-            width: 35rem;
+            width: 43rem;
         }
 
 
@@ -57,7 +57,7 @@
 
 
         .quienessomos-container {
-            width: 49rem;
+            width: 58rem;
         }
 
 
@@ -69,7 +69,7 @@
 
 
         .quienessomos-container {
-            width: 58rem;
+            width: 69rem;
         }
     
 

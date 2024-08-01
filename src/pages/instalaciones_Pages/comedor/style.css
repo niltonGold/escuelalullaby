@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.Comedor-container {
+    background-color: antiquewhite;
+}
+
+@media (max-width: 480px) {
+
+    .Comedor-container {
+        width: 19rem;
+    }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+    .Comedor-container {
+        width: 27rem;
+    }
+
+}
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+
+    .Comedor-container {
+        width: 43rem;
+    }
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+    .Comedor-container {
+        width: 58rem;
+    }
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+    .Comedor-container {
+        width: 69rem;
+    }
+
+}

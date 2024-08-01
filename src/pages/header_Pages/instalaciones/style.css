@@ -2,12 +2,17 @@
 .instalaciones-container{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    background-color: antiquewhite;
 }
 
 
 @media (max-width: 480px) {
 
+
+    .instalaciones-container {
+        width: 19rem;
+        gap: 2rem;
+    }
 
 
 }
@@ -17,6 +22,11 @@
 @media (min-width: 481px) and (max-width: 780px) {
 
 
+    .instalaciones-container {
+        width: 27rem;
+        gap: 2rem;
+    }
+
 
 }
 
@@ -24,6 +34,11 @@
 
 @media (min-width: 781px) and (max-width: 980px) {
 
+
+    .instalaciones-container {
+        width: 43rem;
+        gap: 2rem;
+    }
 
 
 }
@@ -33,6 +48,11 @@
 @media (min-width: 981px) and (max-width: 1200px) {
 
 
+    .instalaciones-container {
+        width: 58rem;
+        gap: 2rem;
+    }
+
 
 }
 
@@ -41,5 +61,10 @@
 @media (min-width: 1201px) {
 
 
+    .instalaciones-container {
+        width: 69rem;
+        gap: 2rem;
+    }
     
+
 }
