@@ -31,6 +31,7 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
+                    /* background-color: antiquewhite; */
                 }
 
                         /* Contenedor de titulo Explorador, Aventureros, Descubridores, Darwin + Años (0-1 año), (1-2 años), (2-3 años), (Psicomotricidad) */
@@ -145,10 +146,6 @@
 @media (max-width: 480px) {
 
 
-        .AulaFotos-container {
-            
-        }
-
         .aulafotos-titulo-container {
             top: 1.5rem;
             display: flex;
@@ -207,6 +204,10 @@
             font-size: 6px;
         }
 
+        .aulafotos-subcontainer-descubridores-darwin{
+            position: relative;
+            top: -3rem;
+        }
 
 }
 

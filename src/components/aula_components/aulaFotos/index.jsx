@@ -46,7 +46,7 @@ export const AulaFotos = () => {
                 </div>
         </div>
         
-        <div className='aulafotos-subcontainer'>
+        <div className='aulafotos-subcontainer aulafotos-subcontainer-descubridores-darwin'>
           
                 <div className='aulafotos-titulo-imagen-info-container'>
                 
