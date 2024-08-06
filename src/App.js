@@ -88,6 +88,10 @@ import { CocinaYlavanderia } from './pages/instalaciones_Pages/cocinaylavanderia
 import { HuertoeInvernadero } from './pages/instalaciones_Pages/huerto_e_invernadero';
 import { SalonDeActos } from './pages/instalaciones_Pages/salon_de_actos';
 import { Patios } from './pages/instalaciones_Pages/patios';
+import { ExploradoresInfo } from './pages/aulas_Pages/exploradores_info/indesx';
+import { AventurerosInfo } from './pages/aulas_Pages/aventureros_info/indesx';
+import { DescubridoresInfo } from './pages/aulas_Pages/descubridores_info/indesx';
+import { DarwinInfo } from './pages/aulas_Pages/darwin_info/indesx';
 
 function App() {
   return (
@@ -119,6 +123,11 @@ function App() {
             <Route path="/huertoeinvernadero" element={ <HuertoeInvernadero/> } />
             <Route path="/salondeactos" element={ <SalonDeActos/> } />
             
+            <Route path="/exploraoresinfo" element={<ExploradoresInfo /> } />
+            <Route path="/aventurerosinfo" element={<AventurerosInfo />} />
+            <Route path="/descubridoresinfo" element={<DescubridoresInfo />} />
+            <Route path="/darwininfo" element={ <DarwinInfo /> } />
+
           </Routes>
         </div>
         <Footer />

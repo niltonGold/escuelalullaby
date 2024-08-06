@@ -1,8 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+
+
+.SalonDeActosFotos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.salondeactosfotos-imagenes-centro {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: opacity 2s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.salondeactosfotos-volver-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: rgb(75, 171, 255); */
+}
+
+.salondeactosfotos-volver {
+    color: #b58900;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    background-color: initial;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-align: justify;
+    cursor: pointer;
+}
+
+
 
 
 @media (max-width: 480px) {
 
+
+    .SalonDeActosFotos-container {
+        gap: 1rem;
+    }
+
+    .salondeactosfotos-imagenes-centro {
+        width: 260px;
+        height: 159px;
+    }
+
+    .salondeactosfotos-volver {
+        font-size: 6px;
+    }
 
 
 }
@@ -12,6 +73,19 @@
 @media (min-width: 481px) and (max-width: 780px) {
 
 
+    .SalonDeActosFotos-container {
+        gap: 1rem;
+    }
+
+    .salondeactosfotos-imagenes-centro {
+        width: 390px;
+        height: 246px;
+    }
+
+    .salondeactosfotos-volver {
+        font-size: 8px;
+    }
+
 
 }
 
@@ -19,6 +93,19 @@
 
 @media (min-width: 781px) and (max-width: 980px) {
 
+
+    .SalonDeActosFotos-container {
+        gap: 1rem;
+    }
+
+    .salondeactosfotos-imagenes-centro {
+        width: 624px;
+        height: 394px;
+    }
+
+    .salondeactosfotos-volver {
+        font-size: 12px;
+    }
 
 
 }
@@ -28,6 +115,19 @@
 @media (min-width: 981px) and (max-width: 1200px) {
 
 
+    .SalonDeActosFotos-container {
+        gap: 1rem;
+    }
+
+    .salondeactosfotos-imagenes-centro {
+        width: 780px;
+        height: 493px;
+    }
+
+    .salondeactosfotos-volver {
+        font-size: 16px;
+    }
+
 
 }
 
@@ -36,5 +136,18 @@
 @media (min-width: 1201px) {
 
 
-    
+    .SalonDeActosFotos-container {
+        gap: 1rem;
+    }
+
+    .salondeactosfotos-imagenes-centro {
+        width: 975px;
+        height: 616px;
+    }
+
+    .salondeactosfotos-volver{
+        font-size: 19px;
+    }
+
+
 }

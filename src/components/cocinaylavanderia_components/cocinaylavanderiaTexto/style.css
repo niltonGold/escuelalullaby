@@ -1,16 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
+
+
+.CocinayLavanderiaTexto-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(156, 101, 29); */
+}
+
+.cocinaylavanderiatexto-volver-siguiente-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: rgb(75, 171, 255); */
+}
+
+.cocinaylavanderiatexto-volver-siguiente {
+    font-family: Nunito;
+    color: #b58900;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-indent: 0;
+    cursor: pointer;
+}
+
+.cocinaylavanderiatexto-imagen-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.cocinaylavanderiatexto-imagen-titulo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url('../../../images/cocinaylavanderia/cocinaylavanderia_titulo.png');
+}
+
+.cocinaylavanderiatexto-parrafo {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: #040000;
+    background-color: initial;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-align: justify;
+}
+
+
+
+
 @media (max-width: 480px) {
 
 
+    .CocinayLavanderiaTexto-container {
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .cocinaylavanderiatexto-volver-siguiente {
+        font-size: 6px;
+    }
+
+    .cocinaylavanderiatexto-imagen-titulo {
+        width: 191px;
+        height: 28px;
+    }
+
+    .cocinaylavanderiatexto-parrafo {
+        font-size: 6px;
+        line-height: 10px;
+    }
     
+
 }
 
 
 
 @media (min-width: 481px) and (max-width: 780px) {
 
+
+    .CocinayLavanderiaTexto-container {
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .cocinaylavanderiatexto-volver-siguiente {
+        font-size: 8px;
+    }
+
+    .cocinaylavanderiatexto-imagen-titulo {
+        width: 287px;
+        height: 42px;
+    }
+
+    .cocinaylavanderiatexto-parrafo {
+        font-size: 8px;
+        line-height: 10px;
+    }
 
 
 }
@@ -20,6 +115,25 @@
 @media (min-width: 781px) and (max-width: 980px) {
 
 
+    .CocinayLavanderiaTexto-container {
+        gap: 0.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .cocinaylavanderiatexto-volver-siguiente {
+        font-size: 12px;
+    }
+
+    .cocinaylavanderiatexto-imagen-titulo {
+        width: 465px;
+        height: 68px;
+    }
+
+    .cocinaylavanderiatexto-parrafo {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
 
 }
 
@@ -28,6 +142,25 @@
 @media (min-width: 981px) and (max-width: 1200px) {
 
 
+    .CocinayLavanderiaTexto-container {
+        gap: 0.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .cocinaylavanderiatexto-volver-siguiente {
+        font-size: 16px;
+    }
+
+    .cocinaylavanderiatexto-imagen-titulo {
+        width: 581px;
+        height: 85px;
+    }
+
+    .cocinaylavanderiatexto-parrafo {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
 
 }
 
@@ -35,6 +168,25 @@
 
 @media (min-width: 1201px) {
 
+
+    .CocinayLavanderiaTexto-container {
+        gap: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .cocinaylavanderiatexto-volver-siguiente {
+        font-size: 19px;
+    }
+
+    .cocinaylavanderiatexto-imagen-titulo {
+        width: 725px;
+        height: 106px;
+    }
+
+    .cocinaylavanderiatexto-parrafo {
+        font-size: 19px;
+        line-height: 25px;
+    }
 
 
 }

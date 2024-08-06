@@ -1,8 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+
+
+
+.ComedorFotos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comedorfotos-imagenes-centro {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: opacity 2s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.comedorfotos-volver-siguiente-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: rgb(75, 171, 255); */
+}
+
+.comedorfotos-volver-siguiente {
+    color: #b58900;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    background-color: initial;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-align: justify;
+    cursor: pointer;
+}
+
+
 
 
 @media (max-width: 480px) {
 
+
+    .ComedorFotos-container {
+        gap: 1rem;
+    }
+
+    .comedorfotos-imagenes-centro {
+        width: 260px;
+        height: 159px;
+    }
+
+    .comedorfotos-volver-siguiente {
+        font-size: 6px;
+    }
 
 
 }
@@ -12,6 +74,19 @@
 @media (min-width: 481px) and (max-width: 780px) {
 
 
+    .ComedorFotos-container {
+        gap: 1rem;
+    }
+
+    .comedorfotos-imagenes-centro {
+        width: 390px;
+        height: 246px;
+    }
+
+    .comedorfotos-volver-siguiente {
+        font-size: 8px;
+    }
+
 
 }
 
@@ -19,6 +94,19 @@
 
 @media (min-width: 781px) and (max-width: 980px) {
 
+
+    .ComedorFotos-container {
+        gap: 1rem;
+    }
+
+    .comedorfotos-imagenes-centro {
+        width: 624px;
+        height: 394px;
+    }
+
+    .comedorfotos-volver-siguiente {
+        font-size: 12px;
+    }
 
 
 }
@@ -28,6 +116,19 @@
 @media (min-width: 981px) and (max-width: 1200px) {
 
 
+    .ComedorFotos-container {
+        gap: 1rem;
+    }
+
+    .comedorfotos-imagenes-centro {
+        width: 780px;
+        height: 493px;
+    }
+
+    .comedorfotos-volver-siguiente {
+        font-size: 16px;
+    }
+
 
 }
 
@@ -36,5 +137,18 @@
 @media (min-width: 1201px) {
 
 
+    .ComedorFotos-container {
+        gap: 1rem;
+    }
+
+    .comedorfotos-imagenes-centro {
+        width: 975px;
+        height: 616px;
+    }
+
+    .comedorfotos-volver-siguiente {
+        font-size: 19px;
+    }
     
+
 }

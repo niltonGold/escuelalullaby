@@ -1,8 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap');
+
+
+
+
+.HuertoeInvernaderoFotos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.huertoeinvernaderofotos-imagenes-centro {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    transition: opacity 2s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+.huertoeinvernaderofotos-volver-siguiente-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: rgb(75, 171, 255); */
+}
+
+.huertoeinvernaderofotos-volver-siguiente {
+    color: #b58900;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    background-color: initial;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-align: justify;
+    cursor: pointer;
+}
+
+
 
 
 @media (max-width: 480px) {
 
+
+    .HuertoeInvernaderoFotos-container {
+        gap: 1rem;
+    }
+
+    .huertoeinvernaderofotos-imagenes-centro {
+        width: 218px;
+        height: 260px;
+    }
+
+    .huertoeinvernaderofotos-volver-siguiente {
+        font-size: 6px;
+    }
 
 
 }
@@ -12,6 +74,19 @@
 @media (min-width: 481px) and (max-width: 780px) {
 
 
+    .HuertoeInvernaderoFotos-container {
+        gap: 1rem;
+    }
+
+    .huertoeinvernaderofotos-imagenes-centro {
+        width: 327px;
+        height: 390px;
+    }
+
+    .huertoeinvernaderofotos-volver-siguiente {
+        font-size: 8px;
+    }
+
 
 }
 
@@ -19,6 +94,19 @@
 
 @media (min-width: 781px) and (max-width: 980px) {
 
+
+    .HuertoeInvernaderoFotos-container {
+        gap: 1rem;
+    }
+
+    .huertoeinvernaderofotos-imagenes-centro {
+        width: 524px;
+        height: 623px;
+    }
+
+    .huertoeinvernaderofotos-volver-siguiente {
+        font-size: 12px;
+    }
 
 
 }
@@ -28,6 +116,19 @@
 @media (min-width: 981px) and (max-width: 1200px) {
 
 
+    .HuertoeInvernaderoFotos-container {
+        gap: 1rem;
+    }
+
+    .huertoeinvernaderofotos-imagenes-centro {
+        width: 655px;
+        height: 779px;
+    }
+
+    .huertoeinvernaderofotos-volver-siguiente {
+        font-size: 16px;
+    }
+
 
 }
 
@@ -36,5 +137,18 @@
 @media (min-width: 1201px) {
 
 
-    
+    .HuertoeInvernaderoFotos-container {
+        gap: 1rem;
+    }
+
+    .huertoeinvernaderofotos-imagenes-centro {
+        width: 819px;
+        height: 974px;
+    }
+
+    .huertoeinvernaderofotos-volver-siguiente {
+        font-size: 19px;
+    }
+
+
 }

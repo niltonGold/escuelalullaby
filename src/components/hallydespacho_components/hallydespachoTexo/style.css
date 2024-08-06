@@ -1,8 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
+.Hallydespachotexo-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(156, 101, 29); */
+}
+
+.hallydespachotexo-volver-siguiente-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: rgb(75, 171, 255); */
+}
+
+.hallydespachotexo-volver-siguiente {
+    font-family: Nunito;
+    color: #b58900;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-indent: 0;
+    cursor: pointer;
+}
+
+.hallydespachotexo-imagen-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.hallydespachotexo-imagen-titulo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url('../../../images/hallydespacho/hallydespacho_titulo.png');
+}
+
+.hallydespachotexo-parrafo {
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: #040000;
+    background-color: initial;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-align: justify;
+}
+
+
+
+
 @media (max-width: 480px) {
 
+    .Hallydespachotexo-container {
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hallydespachotexo-volver-siguiente {
+        font-size: 6px;
+    }
+
+    .hallydespachotexo-imagen-titulo {
+        width: 151px;
+        height: 28px;
+    }
+
+    .hallydespachotexo-parrafo {
+        font-size: 6px;
+        line-height: 10px;
+    }
 
 
 }
@@ -12,6 +85,25 @@
 @media (min-width: 481px) and (max-width: 780px) {
 
 
+    .Hallydespachotexo-container {
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hallydespachotexo-volver-siguiente {
+        font-size: 8px;
+    }
+
+    .hallydespachotexo-imagen-titulo {
+        width: 226px;
+        height: 42px;
+    }
+
+    .hallydespachotexo-parrafo {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
 
 }
 
@@ -19,6 +111,25 @@
 
 @media (min-width: 781px) and (max-width: 980px) {
 
+
+    .Hallydespachotexo-container {
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hallydespachotexo-volver-siguiente {
+        font-size: 12px;
+    }
+
+    .hallydespachotexo-imagen-titulo {
+        width: 366px;
+        height: 68px;
+    }
+
+    .hallydespachotexo-parrafo {
+        font-size: 12px;
+        line-height: 20px;
+    }
 
 
 }
@@ -28,6 +139,25 @@
 @media (min-width: 981px) and (max-width: 1200px) {
 
 
+    .Hallydespachotexo-container {
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hallydespachotexo-volver-siguiente {
+        font-size: 16px;
+    }
+
+    .hallydespachotexo-imagen-titulo {
+        width: 458px;
+        height: 85px;
+    }
+
+    .hallydespachotexo-parrafo {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
 
 }
 
@@ -36,5 +166,24 @@
 @media (min-width: 1201px) {
 
 
+    .Hallydespachotexo-container {
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .hallydespachotexo-volver-siguiente {
+        font-size: 19px;
+    }
+
+    .hallydespachotexo-imagen-titulo {
+        width: 571px;
+        height: 106px;
+    }
+
+    .hallydespachotexo-parrafo {
+        font-size: 19px;
+        line-height: 25px;
+    }
+   
     
 }

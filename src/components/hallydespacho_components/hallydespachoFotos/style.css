@@ -1,8 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
+
+
+.HallyDespachoFotos-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.hallydespachofotos-imagen {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url('../../../images/hallydespacho/hallydespacho_imagen.jpg');
+}
+
+.hallydespachofotos-volver-siguiente-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: rgb(75, 171, 255); */
+}
+
+.hallydespachofotos-volver-siguiente {
+    color: #b58900;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    background-color: initial;
+    letter-spacing: normal;
+    text-shadow: none;
+    text-align: justify;
+    cursor: pointer;
+}
+
+
+
+
 @media (max-width: 480px) {
 
+
+    .HallyDespachoFotos-container {
+        gap: 1rem;
+    }
+
+    .hallydespachofotos-imagen{
+        width: 260px;
+        height: 164px;
+    }
+
+    .hallydespachofotos-volver-siguiente {
+        font-size: 6px;
+    }
 
 
 }
@@ -12,6 +67,19 @@
 @media (min-width: 481px) and (max-width: 780px) {
 
 
+    .HallyDespachoFotos-container {
+        gap: 1rem;
+    }
+
+    .hallydespachofotos-imagen {
+        width: 390px;
+        height: 246px;
+    }
+
+    .hallydespachofotos-volver-siguiente {
+        font-size: 8px;
+    }
+
 
 }
 
@@ -19,6 +87,19 @@
 
 @media (min-width: 781px) and (max-width: 980px) {
 
+
+    .HallyDespachoFotos-container {
+        gap: 1rem;
+    }
+
+    .hallydespachofotos-imagen {
+        width: 624px;
+        height: 394px;
+    }
+
+    .hallydespachofotos-volver-siguiente {
+        font-size: 12px;
+    }
 
 
 }
@@ -28,6 +109,19 @@
 @media (min-width: 981px) and (max-width: 1200px) {
 
 
+    .HallyDespachoFotos-container {
+        gap: 2rem;
+    }
+
+    .hallydespachofotos-imagen {
+        width: 780px;
+        height: 493px;
+    }
+
+    .hallydespachofotos-volver-siguiente {
+        font-size: 16px;
+    }
+
 
 }
 
@@ -36,5 +130,18 @@
 @media (min-width: 1201px) {
 
 
+    .HallyDespachoFotos-container {
+        gap: 2rem;
+    }
+
+    .hallydespachofotos-imagen {
+        width: 975px;
+        height: 616px;
+    }
+
+    .hallydespachofotos-volver-siguiente {
+        font-size: 19px;
+    }
     
+
 }

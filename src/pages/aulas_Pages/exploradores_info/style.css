@@ -1,0 +1,51 @@
+.ExploradoresInfo-container {
+    /* background-color: antiquewhite; */
+}
+
+@media (max-width: 480px) {
+
+    .ExploradoresInfo-container {
+        width: 19rem;
+    }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+    .ExploradoresInfo-container {
+        width: 27rem;
+    }
+
+}
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+
+    .ExploradoresInfo-container {
+        width: 43rem;
+    }
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+    .ExploradoresInfo-container {
+        width: 58rem;
+    }
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+    .ExploradoresInfo-container {
+        width: 69rem;
+    }
+
+}

@@ -1,0 +1,51 @@
+.DescubridoresInfo-container {
+    background-color: antiquewhite;
+}
+
+@media (max-width: 480px) {
+
+    .DescubridoresInfo-container {
+        width: 19rem;
+    }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 780px) {
+
+    .DescubridoresInfo-container {
+        width: 27rem;
+    }
+
+}
+
+
+
+@media (min-width: 781px) and (max-width: 980px) {
+
+    .DescubridoresInfo-container {
+        width: 43rem;
+    }
+
+}
+
+
+
+@media (min-width: 981px) and (max-width: 1200px) {
+
+    .DescubridoresInfo-container {
+        width: 58rem;
+    }
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+    .DescubridoresInfo-container {
+        width: 69rem;
+    }
+
+}
